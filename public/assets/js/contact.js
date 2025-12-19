@@ -3,6 +3,7 @@
   const $$ = (sel)=>Array.from(document.querySelectorAll(sel));
 
   const contactType = $('#contact_type');
+  if (!contactType) return;
   const zoomBox = $('#zoom_box');
   const availabilityBox = $('#availability_box');
   const slotsSelect = $('#slot_select');
@@ -112,19 +113,60 @@
     url.searchParams.set('start', start);
     url.searchParams.set('days', '7');
 
-    const res = await fetch(url.toString(), {headers:{'Accept':'application/json'}});
-    const data = await res.json();
+    let data = null;
+    try{
+      const res = await fetch(url.toString(), {headers:{'Accept':'application/json'}});
+      if (!res.ok) throw new Error('Failed to load availability');
+      data = await res.json();
+    }catch(e){
+      specialInfo.textContent = 'Unable to load availability right now. Please pick a specific date/time below.';
+      return;
+    }
     const days = data.days || [];
 
     let total = 0;
-    for (const d of days){
-      for (const s of (d.slots||[])){
+    if (days.length){
+      for (const d of days){
+        for (const s of (d.slots||[])){
+          const opt = document.createElement('option');
+          opt.value = s.value; // local time string
+          opt.textContent = `${d.date} — ${s.label} (${s.timezone})`;
+          slotsSelect.appendChild(opt);
+          total++;
+        }
+      }
+    } else if (data.slots){ // fallback without days wrapper
+      for (const s of data.slots){
         const opt = document.createElement('option');
-        opt.value = s.value; // local time string
-        opt.textContent = `${d.date} — ${s.label} (${s.timezone})`;
+        opt.value = s.start_local || s.value || '';
+        opt.textContent = `${(s.start_local||'').slice(0,16)} ${s.timezone||''}`.trim();
         slotsSelect.appendChild(opt);
         total++;
       }
+    }
+
+    // If nothing came back, synthesize a simple weekday fallback so the user always sees options
+    if (total === 0) {
+      const fallbackDate = new Date(start + 'T00:00:00');
+      for (let i = 0; i < 7; i++) {
+        const day = new Date(fallbackDate.getTime() + i * 24 * 60 * 60 * 1000);
+        const dow = day.getDay(); // 0 Sun ... 6 Sat
+        if (dow >= 1 && dow <= 5) { // Mon-Fri
+          ['09:00','11:00','13:00','15:00'].forEach(t => {
+            const val = `${day.toISOString().slice(0,10)} ${t}:00`;
+            const opt = document.createElement('option');
+            opt.value = val;
+            opt.textContent = `${day.toISOString().slice(0,10)} — ${t}`;
+            slotsSelect.appendChild(opt);
+            total++;
+          });
+          break;
+        }
+      }
+      specialInfo.textContent = total === 0
+        ? 'No available slots found. Please request a specific date/time below.'
+        : 'Showing fallback weekday slots. You can also request a specific date/time below.';
+      return;
     }
 
     if (total === 0){
@@ -143,6 +185,17 @@
   }, 80));
 
   preferredDate.addEventListener('change', loadAvailability);
+  slotsSelect.addEventListener('focus', ()=>{
+    if (!preferredDate.value) {
+      specialInfo.textContent = 'Pick a date first to load matching slots.';
+    }
+  });
+  slotsSelect.addEventListener('click', ()=>{
+    if (!preferredDate.value) {
+      alert('Please pick a date first, then choose a slot.');
+      slotsSelect.blur();
+    }
+  });
 
   // Initial
   setZoomVisibility();
@@ -153,3 +206,4 @@
   if (contactType.value === 'zoom' && preferredDate.value) loadAvailability();
 
 })();
+

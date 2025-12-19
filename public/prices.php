@@ -10,21 +10,21 @@
   <div class="grid two">
     <div class="card">
       <div class="h1">Prices</div>
-      <p class="sub">We don’t publish one-size-fits-all pricing because support needs vary by workload, urgency, and expertise. Instead, tell us what you need and we’ll respond with the best-fit option.</p>
+      <p class="sub">Support needs aren't one-size-fits-all. Tell us the workload, urgency, and tools, and we'll return the right fit instead of a generic menu.</p>
 
       <div class="hr"></div>
 
       <div class="grid" style="gap:10px;">
-        <div class="pill">Custom to your services and workload</div>
-        <div class="pill">Often more cost‑effective than hiring in‑house</div>
-        <div class="pill">Deadline-driven delivery</div>
-        <div class="pill">Scale up or down anytime</div>
+        <div class="pill">Calibrated to your services and volume</div>
+        <div class="pill">Often leaner than hiring in-house</div>
+        <div class="pill">Deadline-driven commitments</div>
+        <div class="pill">Scale up or down as your pipeline shifts</div>
       </div>
 
       <div class="hr"></div>
 
       <h2>Request a quote</h2>
-      <p class="small">Select services to speed up your quote. You only need a name and email to start.</p>
+      <p class="small">Pick services to speed up the response. Name and email are all we need to start.</p>
 
       <div class="row two">
         <div>
@@ -38,13 +38,8 @@
       </div>
 
       <div style="margin-top:12px;">
-        <div class="label">Services filter</div>
-        <input class="input" id="services_filter" placeholder="Search services…">
-      </div>
-
-      <div style="margin-top:12px;">
         <div class="label">Details</div>
-        <textarea class="input" id="details" placeholder="What tasks, how many hours/week, deadlines, tools (Airbnb, CRM, email, etc.)?"></textarea>
+        <textarea class="input" id="details" placeholder="What tasks, hours per week, deadlines, and tools (Airbnb, CRM, email, etc.)?"></textarea>
       </div>
 
       <input type="hidden" id="service_ids" value="">
@@ -54,15 +49,19 @@
 
       <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
         <button class="btn primary" id="submit_btn" type="button">Request quote</button>
-        <span class="small">We’ll email you a confirmation and follow up with next steps.</span>
+        <span class="small">We'll email a confirmation and follow up with next steps.</span>
       </div>
     </div>
 
     <div class="card">
       <h2>Select services</h2>
-      <p class="sub">Click to add. We auto‑attach them to your details so your request is clear.</p>
+      <p class="sub">Click to add. We'll attach your picks to the request so the quote is clear.</p>
+      <div style="margin-top:8px;">
+        <div class="label">Services filter</div>
+        <input class="input" id="services_filter" placeholder="Search services...">
+      </div>
       <div id="services_box" class="grid" style="gap:12px;">
-        <div class="small">Loading services…</div>
+        <div class="small">Loading services...</div>
       </div>
     </div>
   </div>
@@ -148,7 +147,7 @@
   filter.addEventListener('input', ()=>render(filter.value));
 
   btn.addEventListener('click', async ()=>{
-    btn.disabled=true; btn.textContent='Sending…';
+    btn.disabled=true; btn.textContent='Sending...';
     const payload={
       csrf: document.getElementById('csrf').value,
       full_name: document.getElementById('full_name').value,

@@ -12,6 +12,6 @@
   <meta name="csrf-token" content="<?php echo htmlspecialchars($csrf ?? '', ENT_QUOTES, 'UTF-8'); ?>">
 
   <!-- Base + Luxury styles (ORDER MATTERS) -->
-  <link rel="preload" href="/assets/css/lux.css" as="style">
-  <link rel="stylesheet" href="/assets/css/lux.css">
+  <link rel="preload" href="/assets/css/lux.css?11562752222" as="style">
+  <link rel="stylesheet" href="/assets/css/lux.css?1561127752222">
 </head>

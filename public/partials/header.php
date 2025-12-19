@@ -30,8 +30,10 @@ if (!isset($csrf)) {
     </a>
 
     <div class="nav">
+      <a class="btn" href="/">Home</a>
       <a class="btn" href="/services">Services</a>
       <a class="btn" href="/prices">Prices</a>
+      <a class="btn" href="/#faq">FAQ</a>
       <a class="btn" href="/contact">Contact</a>
       <a class="btn primary" href="/contact#book">Book a Meeting</a>
     </div>

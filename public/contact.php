@@ -5,12 +5,11 @@
 
 
 
-
 <div class="container">
   <div class="grid two">
     <div class="card">
       <div class="h1" id="book">Contact</div>
-      <p class="sub">Tell us what you need and how you prefer to work. Book a Zoom meeting, request a phone call, or call us right away. We support Airbnb and short‑term rentals, real estate operations, social media management, video editing, inbox organization, case management, personal assistant tasks, and more. If your preferred time is blocked, you can still submit a request—our team will follow up quickly with the best available option.</p>
+      <p class="sub">Tell us what you need, how you like to work, and the deadlines you're up against. Book a Zoom, request a call, or drop a note—whatever is fastest for you.</p>
 
       <div id="result" class="notice" style="display:none;"></div>
 
@@ -43,27 +42,24 @@
         <div>
           <div class="label">Type of contact</div>
           <select class="input" id="contact_type">
+            <option value="" selected disabled>Select contact type</option>
             <option value="zoom">Zoom meeting</option>
             <option value="phone">Phone</option>
             <option value="email">Email</option>
           </select>
-        </div>
-        <div>
-          <div class="label">Services filter</div>
-          <input class="input" id="services_filter" placeholder="Search services…">
         </div>
       </div>
 
       <div id="zoom_box" style="margin-top:12px;">
         <div class="card" style="box-shadow:none;">
           <h2>Zoom scheduling</h2>
-          <p class="small">Pick a date to load available time slots. If nothing fits, request a specific date/time below (even if blocked).</p>
-          <div class="row two">
+          <p class="small">Pick a date to load available slots. If nothing fits, request a specific time—we'll route it to the team.</p>
+          <div class="row two" style="margin-top:8px;">
             <div>
               <div class="label">Pick a date to browse availability</div>
               <input class="input" id="preferred_date" type="date">
             </div>
-            <div id="availability_box" style="display:block;">
+            <div>
               <div class="label">Available slots</div>
               <select class="input" id="slot_select">
                 <option value="">Select a slot (optional)</option>
@@ -84,13 +80,13 @@
               <input class="input" id="preferred_time" type="time">
             </div>
           </div>
-          <div class="small" style="margin-top:6px;">If the date/time is blocked, we will email your request (with services selected) to our team for review.</div>
+          <div class="small" style="margin-top:6px;">If the date/time is blocked, we'll log it as a special request and reply with the closest match.</div>
         </div>
       </div>
 
       <div style="margin-top:12px;">
         <div class="label">Details</div>
-        <textarea class="input" id="details" placeholder="What are you looking to delegate? Any deadlines, tools, or workflow notes?"></textarea>
+        <textarea class="input" id="details" placeholder="What do you want off your plate? Tasks, tools, timelines, and what success looks like."></textarea>
       </div>
 
       <input type="hidden" id="service_ids" value="">
@@ -98,35 +94,32 @@
 
       <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
         <button class="btn primary" id="submit_btn" type="button">Send request</button>
-        <span class="small">We send a confirmation email to you and an internal notification to our team.</span>
+        <span class="small">You'll get a confirmation email; our team is notified immediately.</span>
       </div>
     </div>
 
     <div class="grid" style="gap:18px;">
       <div class="card">
-        <h2>Pick your services (fast)</h2>
-        <p class="sub">Tell us what you need and how you prefer to work. Book a Zoom meeting, request a phone call, or call us right away. We support Airbnb and short‑term rentals, real estate operations, social media management, video editing, inbox organization, case management, personal assistant tasks, and more. If your preferred time is blocked, you can still submit a request—our team will follow up quickly with the best available option.</p>
-        <div id="services_box" class="grid" style="gap:12px;">
-          <div class="small">Loading services…</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <h2>Why a Virtual Assistant</h2>
-        <p class="sub">Tell us what you need and how you prefer to work. Book a Zoom meeting, request a phone call, or call us right away. We support Airbnb and short‑term rentals, real estate operations, social media management, video editing, inbox organization, case management, personal assistant tasks, and more. If your preferred time is blocked, you can still submit a request—our team will follow up quickly with the best available option.</p>
-        <div class="hr"></div>
-        <div class="grid" style="gap:10px;">
-          <div class="pill">Save hours weekly — consistent execution, fewer interruptions.</div>
-          <div class="pill">Lower cost than in‑house hiring — no payroll overhead or downtime.</div>
-          <div class="pill">Deadline-driven — we adjust hours to finish tasks on time.</div>
-          <div class="pill">Scales with you — add or shift support as your needs change.</div>
+        <h2>Pick your services</h2>
+        <p class="sub">Tap to select. On mobile, chips wrap for easy tapping. We attach your selections to the request automatically.</p>
+        <div class="label" style="margin-top:8px;">Services filter</div>
+        <input class="input" id="services_filter" placeholder="Search services...">
+        <div id="services_box" class="grid" style="gap:12px; margin-top:12px;">
+          <div class="small">Loading services...</div>
         </div>
       </div>
 
       <div class="card">
         <h2>Professional, fast, and clear</h2>
-        <p class="sub">Tell us what you need and how you prefer to work. Book a Zoom meeting, request a phone call, or call us right away. We support Airbnb and short‑term rentals, real estate operations, social media management, video editing, inbox organization, case management, personal assistant tasks, and more. If your preferred time is blocked, you can still submit a request—our team will follow up quickly with the best available option.</p>
-        <a class="btn" href="/prices">See pricing approach</a>
+        <p class="sub">We align on your standards, send concise updates, and course-correct quickly if priorities shift.</p>
+        <div class="hr"></div>
+        <div class="grid" style="gap:10px;">
+          <div class="pill">Consistent execution with fewer interruptions</div>
+          <div class="pill">Lower cost than in-house hires</div>
+          <div class="pill">Deadline-driven delivery</div>
+          <div class="pill">Scales up or down with your needs</div>
+        </div>
+        <a class="btn" style="margin-top:12px;" href="/prices">See pricing approach</a>
       </div>
     </div>
   </div>
@@ -149,7 +142,7 @@
 
   btn.addEventListener('click', async ()=>{
     btn.disabled = true;
-    btn.textContent = 'Sending…';
+    btn.textContent = 'Sending...';
 
     const contactType = document.getElementById('contact_type').value;
     const slotLocal = document.getElementById('slot_select').value;
