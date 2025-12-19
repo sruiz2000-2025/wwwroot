@@ -1,0 +1,1653 @@
+Dec 18 02:07:49 10.71.60.0 a2851164 Connection from 10.71.60.0 port 63722 on 66.175.237.39 port 22 rdomain ""
+Dec 18 02:07:50 10.71.60.0 a2851164 Accepted password for a2851164 from 10.71.60.0 port 63722 ssh2
+Dec 18 02:07:50 10.71.60.0 a2851164 Starting session: subsystem 'sftp' for a2851164 from 10.71.60.0 port 63722 id 0
+Dec 18 02:07:50 10.71.60.0 a2851164 session opened for local user a2851164 from [10.71.60.0]
+Dec 18 02:10:39 10.71.60.0 a2876151 Connection from 10.71.60.0 port 58830 on 66.175.237.39 port 22 rdomain ""
+Dec 18 02:10:40 10.71.60.0 a2876151 Accepted password for a2876151 from 10.71.60.0 port 58830 ssh2
+Dec 18 02:10:40 10.71.60.0 a2876151 Starting session: subsystem 'sftp' for a2876151 from 10.71.60.0 port 58830 id 0
+Dec 18 02:10:40 10.71.60.0 a2876151 session opened for local user a2876151 from [10.71.60.0]
+Dec 18 02:12:31 10.71.60.0 a2877053 Connection from 10.71.60.0 port 13926 on 66.175.237.39 port 22 rdomain ""
+Dec 18 02:12:31 10.71.60.0 a2877053 Accepted password for a2877053 from 10.71.60.0 port 13926 ssh2
+Dec 18 02:12:33 10.71.60.0 a2876151 mkdir name "/index" mode 0777
+Dec 18 02:12:33 10.71.60.0 a2876151 [10.71.60.0|mkdir|0|0|511|0|0|2f696e646578|]
+Dec 18 02:12:53 10.71.60.0 a2851164 session closed for local user a2851164 from [10.71.60.0]
+Dec 18 02:12:53 10.71.60.0 a2851164 Received disconnect from 10.71.60.0 port 63722:11: Connection terminated by the client.
+Dec 18 02:13:47 10.71.60.0 a2876151 open "/index.php.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 02:13:47 10.71.60.0 a2876151 close "/index.php.txt" bytes read 0 written 22
+Dec 18 02:13:47 10.71.60.0 a2876151 [10.71.60.0|put|0|22|0|0|0|2f696e6465782e7068702e747874|]
+Dec 18 02:14:43 10.71.60.0 a2876151 posix-rename old "/index.php.txt" new "/index.php"
+Dec 18 02:14:43 10.71.60.0 a2876151 [10.71.60.0|posix-rename|0|0|0|0|0|2f696e6465782e7068702e747874|2f696e6465782e706870]
+Dec 18 02:15:21 10.71.60.0 a2876151 open "/index.php" flags READ mode 0666
+Dec 18 02:15:21 10.71.60.0 a2876151 close "/index.php" bytes read 22 written 0
+Dec 18 02:15:21 10.71.60.0 a2876151 [10.71.60.0|get|0|22|0|0|0|2f696e6465782e706870|]
+Dec 18 02:19:43 10.71.60.0 a2877053 Connection closed by 10.71.60.0 port 13926
+Dec 18 02:20:29 10.71.60.0 a2876151 session closed for local user a2876151 from [10.71.60.0]
+Dec 18 02:20:29 10.71.60.0 a2876151 Connection closed by 10.71.60.0 port 58830
+Dec 18 02:46:21 10.71.60.0 a2117540 Connection from 10.71.60.0 port 41512 on 66.175.237.39 port 22 rdomain ""
+Dec 18 02:46:22 10.71.60.0 a2117540 Accepted password for a2117540 from 10.71.60.0 port 41512 ssh2
+Dec 18 02:46:22 10.71.60.0 a2117540 Starting session: subsystem 'sftp' for a2117540 from 10.71.60.0 port 41512 id 0
+Dec 18 02:46:22 10.71.60.0 a2117540 session opened for local user a2117540 from [10.71.60.0]
+Dec 18 02:46:23 10.71.60.0 a2117540 open "/index.php" flags READ mode 0666
+Dec 18 02:46:23 10.71.60.0 a2117540 close "/index.php" bytes read 22 written 0
+Dec 18 02:46:23 10.71.60.0 a2117540 [10.71.60.0|get|0|22|0|0|0|2f696e6465782e706870|]
+Dec 18 02:46:31 10.71.60.0 a2117540 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 02:46:32 10.71.60.0 a2117540 close "/index.php" bytes read 0 written 8185
+Dec 18 02:46:32 10.71.60.0 a2117540 [10.71.60.0|put|1|8185|0|0|0|2f696e6465782e706870|]
+Dec 18 02:49:05 10.71.60.0 a2117540 open "/index.php" flags READ mode 0666
+Dec 18 02:49:05 10.71.60.0 a2117540 close "/index.php" bytes read 8185 written 0
+Dec 18 02:49:05 10.71.60.0 a2117540 [10.71.60.0|get|0|8185|0|0|0|2f696e6465782e706870|]
+Dec 18 02:49:18 10.71.60.0 a2117540 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 02:49:18 10.71.60.0 a2117540 close "/index.php" bytes read 0 written 8818
+Dec 18 02:49:18 10.71.60.0 a2117540 [10.71.60.0|put|0|8818|0|0|0|2f696e6465782e706870|]
+Dec 18 02:51:05 10.71.60.0 a2117540 open "/index.php" flags READ mode 0666
+Dec 18 02:51:05 10.71.60.0 a2117540 close "/index.php" bytes read 8818 written 0
+Dec 18 02:51:05 10.71.60.0 a2117540 [10.71.60.0|get|0|8818|0|0|0|2f696e6465782e706870|]
+Dec 18 02:51:13 10.71.60.0 a2117540 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 02:51:13 10.71.60.0 a2117540 close "/index.php" bytes read 0 written 6498
+Dec 18 02:51:13 10.71.60.0 a2117540 [10.71.60.0|put|0|6498|0|0|0|2f696e6465782e706870|]
+Dec 18 02:54:58 10.71.60.0 a2117540 open "/index.php" flags READ mode 0666
+Dec 18 02:54:58 10.71.60.0 a2117540 close "/index.php" bytes read 6498 written 0
+Dec 18 02:54:58 10.71.60.0 a2117540 [10.71.60.0|get|0|6498|0|0|0|2f696e6465782e706870|]
+Dec 18 02:55:24 10.71.60.0 a2117540 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 02:55:24 10.71.60.0 a2117540 close "/index.php" bytes read 0 written 25909
+Dec 18 02:55:24 10.71.60.0 a2117540 [10.71.60.0|put|0|25909|0|0|0|2f696e6465782e706870|]
+Dec 18 02:58:48 10.71.60.0 a2117540 open "/index.php" flags READ mode 0666
+Dec 18 02:58:48 10.71.60.0 a2117540 close "/index.php" bytes read 25909 written 0
+Dec 18 02:58:48 10.71.60.0 a2117540 [10.71.60.0|get|0|25909|0|0|0|2f696e6465782e706870|]
+Dec 18 02:58:57 10.71.60.0 a2117540 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 02:58:58 10.71.60.0 a2117540 close "/index.php" bytes read 0 written 22727
+Dec 18 02:58:58 10.71.60.0 a2117540 [10.71.60.0|put|1|22727|0|0|0|2f696e6465782e706870|]
+Dec 18 03:01:19 10.71.60.0 a2575115 Connection from 10.71.60.0 port 45744 on 66.175.237.39 port 22 rdomain ""
+Dec 18 03:01:20 10.71.60.0 a2575115 Accepted password for a2575115 from 10.71.60.0 port 45744 ssh2
+Dec 18 03:01:21 10.71.60.0 a2117540 mkdir name "/assets" mode 0777
+Dec 18 03:01:21 10.71.60.0 a2117540 [10.71.60.0|mkdir|0|0|511|0|0|2f617373657473|]
+Dec 18 03:01:34 10.71.60.0 a2117540 mkdir name "/assets/css" mode 0777
+Dec 18 03:01:34 10.71.60.0 a2117540 [10.71.60.0|mkdir|0|0|511|0|0|2f6173736574732f637373|]
+Dec 18 03:01:42 10.71.60.0 a2117540 mkdir name "/assets/js" mode 0777
+Dec 18 03:01:42 10.71.60.0 a2117540 [10.71.60.0|mkdir|0|0|511|0|0|2f6173736574732f6a73|]
+Dec 18 03:02:05 10.71.60.0 a2117540 mkdir name "/partials" mode 0777
+Dec 18 03:02:05 10.71.60.0 a2117540 [10.71.60.0|mkdir|0|0|511|0|0|2f7061727469616c73|]
+Dec 18 03:02:24 10.71.60.0 a2117540 open "/partials/index.php.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:02:24 10.71.60.0 a2117540 close "/partials/index.php.txt" bytes read 0 written 0
+Dec 18 03:02:24 10.71.60.0 a2117540 [10.71.60.0|put|0|0|0|0|0|2f7061727469616c732f696e6465782e7068702e747874|]
+Dec 18 03:03:12 10.71.60.0 a2117540 mkdir name "/assets/img" mode 0777
+Dec 18 03:03:12 10.71.60.0 a2117540 [10.71.60.0|mkdir|0|0|511|0|0|2f6173736574732f696d67|]
+Dec 18 03:05:48 10.71.60.0 a2117540 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:05:48 10.71.60.0 a2117540 close "/index.php" bytes read 0 written 9595
+Dec 18 03:05:48 10.71.60.0 a2117540 [10.71.60.0|put|0|9595|0|0|0|2f696e6465782e706870|]
+Dec 18 03:06:08 10.71.60.0 a2117540 open "/va-site.zip" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:06:09 10.71.60.0 a2117540 close "/va-site.zip" bytes read 0 written 7371
+Dec 18 03:06:09 10.71.60.0 a2117540 [10.71.60.0|put|1|7371|0|0|0|2f76612d736974652e7a6970|]
+Dec 18 03:12:20 10.71.60.0 a2575115 Connection closed by 10.71.60.0 port 45744
+Dec 18 03:12:22 10.71.60.0 a2117540 Connection closed by 10.71.60.0 port 41512
+Dec 18 03:12:22 10.71.60.0 a2117540 session closed for local user a2117540 from [10.71.60.0]
+Dec 18 03:26:22 10.71.60.0 a2573561 Connection from 10.71.60.0 port 45096 on 66.175.237.39 port 22 rdomain ""
+Dec 18 03:26:23 10.71.60.0 a2573561 Accepted password for a2573561 from 10.71.60.0 port 45096 ssh2
+Dec 18 03:26:23 10.71.60.0 a2573561 Starting session: subsystem 'sftp' for a2573561 from 10.71.60.0 port 45096 id 0
+Dec 18 03:26:23 10.71.60.0 a2573561 session opened for local user a2573561 from [10.71.60.0]
+Dec 18 03:26:23 10.71.60.0 a2573561 open "/index.php" flags READ mode 0666
+Dec 18 03:26:24 10.71.60.0 a2573561 close "/index.php" bytes read 9595 written 0
+Dec 18 03:26:24 10.71.60.0 a2573561 [10.71.60.0|get|1|9595|0|0|0|2f696e6465782e706870|]
+Dec 18 03:26:50 10.71.60.0 a2573561 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:26:50 10.71.60.0 a2573561 close "/index.php" bytes read 0 written 8628
+Dec 18 03:26:50 10.71.60.0 a2573561 [10.71.60.0|put|0|8628|0|0|0|2f696e6465782e706870|]
+Dec 18 03:28:09 10.71.60.0 a2573561 open "/index.php" flags READ mode 0666
+Dec 18 03:28:09 10.71.60.0 a2573561 close "/index.php" bytes read 8628 written 0
+Dec 18 03:28:09 10.71.60.0 a2573561 [10.71.60.0|get|0|8628|0|0|0|2f696e6465782e706870|]
+Dec 18 03:31:11 10.71.60.0 a2573561 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:31:12 10.71.60.0 a2573561 close "/index.php" bytes read 0 written 9971
+Dec 18 03:31:12 10.71.60.0 a2573561 [10.71.60.0|put|1|9971|0|0|0|2f696e6465782e706870|]
+Dec 18 03:31:36 10.71.60.0 a2573561 open "/assets/css/style.css" flags READ mode 0666
+Dec 18 03:31:36 10.71.60.0 a2573561 close "/assets/css/style.css" bytes read 9394 written 0
+Dec 18 03:31:36 10.71.60.0 a2573561 [10.71.60.0|get|0|9394|0|0|0|2f6173736574732f6373732f7374796c652e637373|]
+Dec 18 03:31:43 10.71.60.0 a2573561 open "/assets/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:31:43 10.71.60.0 a2573561 close "/assets/css/style.css" bytes read 0 written 12031
+Dec 18 03:31:43 10.71.60.0 a2573561 [10.71.60.0|put|0|12031|0|0|0|2f6173736574732f6373732f7374796c652e637373|]
+Dec 18 03:33:09 10.71.60.0 a2573561 open "/index.php" flags READ mode 0666
+Dec 18 03:33:09 10.71.60.0 a2573561 close "/index.php" bytes read 9971 written 0
+Dec 18 03:33:09 10.71.60.0 a2573561 [10.71.60.0|get|0|9971|0|0|0|2f696e6465782e706870|]
+Dec 18 03:33:41 10.71.60.0 a2573561 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:33:41 10.71.60.0 a2573561 close "/index.php" bytes read 0 written 10599
+Dec 18 03:33:41 10.71.60.0 a2573561 [10.71.60.0|put|0|10599|0|0|0|2f696e6465782e706870|]
+Dec 18 03:38:48 10.71.60.0 a2573561 session closed for local user a2573561 from [10.71.60.0]
+Dec 18 03:38:48 10.71.60.0 a2573561 Connection closed by 10.71.60.0 port 45096
+Dec 18 03:44:58 10.71.60.0 a1515640 Connection from 10.71.60.0 port 49864 on 66.175.237.39 port 22 rdomain ""
+Dec 18 03:44:59 10.71.60.0 a1515640 Accepted password for a1515640 from 10.71.60.0 port 49864 ssh2
+Dec 18 03:44:59 10.71.60.0 a1515640 Starting session: subsystem 'sftp' for a1515640 from 10.71.60.0 port 49864 id 0
+Dec 18 03:44:59 10.71.60.0 a1515640 session opened for local user a1515640 from [10.71.60.0]
+Dec 18 03:45:16 10.71.60.0 a1515640 Connection from 10.71.60.0 port 50190 on 66.175.237.39 port 22 rdomain ""
+Dec 18 03:45:16 10.71.60.0 a1515640 Accepted password for a1515640 from 10.71.60.0 port 50190 ssh2
+Dec 18 03:45:32 10.71.60.0 a1515640 open "/ongoingteam-preview.zip" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:45:32 10.71.60.0 a1515640 close "/ongoingteam-preview.zip" bytes read 0 written 1559
+Dec 18 03:45:32 10.71.60.0 a1515640 [10.71.60.0|put|0|1559|0|0|0|2f6f6e676f696e677465616d2d707265766965772e7a6970|]
+Dec 18 03:49:23 10.71.60.0 a1515640 open "/ongoingteam-full.zip" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 03:49:23 10.71.60.0 a1515640 close "/ongoingteam-full.zip" bytes read 0 written 8411
+Dec 18 03:49:23 10.71.60.0 a1515640 [10.71.60.0|put|0|8411|0|0|0|2f6f6e676f696e677465616d2d66756c6c2e7a6970|]
+Dec 18 03:55:30 10.71.60.0 a1515640 Connection closed by 10.71.60.0 port 50190
+Dec 18 03:55:35 10.71.60.0 a1515640 session closed for local user a1515640 from [10.71.60.0]
+Dec 18 03:55:35 10.71.60.0 a1515640 Connection closed by 10.71.60.0 port 49864
+Dec 18 04:37:50 10.71.60.0 a1391897 Connection from 10.71.60.0 port 37276 on 66.175.237.39 port 22 rdomain ""
+Dec 18 04:37:50 10.71.60.0 a1391897 Accepted password for a1391897 from 10.71.60.0 port 37276 ssh2
+Dec 18 04:37:51 10.71.60.0 a1391897 Starting session: subsystem 'sftp' for a1391897 from 10.71.60.0 port 37276 id 0
+Dec 18 04:37:51 10.71.60.0 a1391897 session opened for local user a1391897 from [10.71.60.0]
+Dec 18 04:38:02 10.71.60.0 a1391897 Connection from 10.71.60.0 port 24162 on 66.175.237.39 port 22 rdomain ""
+Dec 18 04:38:02 10.71.60.0 a1391897 Accepted password for a1391897 from 10.71.60.0 port 24162 ssh2
+Dec 18 04:38:15 10.71.60.0 a1391897 open "/ongoingteam_new_files (1).zip" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:38:16 10.71.60.0 a1391897 close "/ongoingteam_new_files (1).zip" bytes read 0 written 24328
+Dec 18 04:38:16 10.71.60.0 a1391897 [10.71.60.0|put|1|24328|0|0|0|2f6f6e676f696e677465616d5f6e65775f66696c6573202831292e7a6970|]
+Dec 18 04:40:58 10.71.60.0 a1472313 Connection from 10.71.60.0 port 36290 on 66.175.237.39 port 22 rdomain ""
+Dec 18 04:40:59 10.71.60.0 a1472313 Accepted password for a1472313 from 10.71.60.0 port 36290 ssh2
+Dec 18 04:40:59 10.71.60.0 a1472313 Starting session: subsystem 'sftp' for a1472313 from 10.71.60.0 port 36290 id 0
+Dec 18 04:40:59 10.71.60.0 a1472313 session opened for local user a1472313 from [10.71.60.0]
+Dec 18 04:41:59 10.71.60.0 a1391897 open "/config/contact_config.php" flags READ mode 0666
+Dec 18 04:41:59 10.71.60.0 a1391897 close "/config/contact_config.php" bytes read 1415 written 0
+Dec 18 04:41:59 10.71.60.0 a1391897 [10.71.60.0|get|0|1415|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 04:42:52 10.71.60.0 a1391897 open "/config/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:42:52 10.71.60.0 a1391897 close "/config/contact_config.php" bytes read 0 written 1505
+Dec 18 04:42:52 10.71.60.0 a1391897 [10.71.60.0|put|0|1505|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 04:43:01 10.71.60.0 a1391897 open "/config/db.php" flags READ mode 0666
+Dec 18 04:43:01 10.71.60.0 a1391897 close "/config/db.php" bytes read 885 written 0
+Dec 18 04:43:01 10.71.60.0 a1391897 [10.71.60.0|get|0|885|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 04:43:18 10.71.60.0 a1391897 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:43:18 10.71.60.0 a1391897 close "/config/db.php" bytes read 0 written 862
+Dec 18 04:43:18 10.71.60.0 a1391897 [10.71.60.0|put|0|862|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 04:43:22 10.71.60.0 a1391897 Connection closed by 10.71.60.0 port 24162
+Dec 18 04:43:26 10.71.60.0 a1391897 open "/config/mail.php" flags READ mode 0666
+Dec 18 04:43:26 10.71.60.0 a1391897 close "/config/mail.php" bytes read 472 written 0
+Dec 18 04:43:26 10.71.60.0 a1391897 [10.71.60.0|get|0|472|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 04:43:36 10.71.60.0 a1391897 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:43:36 10.71.60.0 a1391897 close "/config/mail.php" bytes read 0 written 454
+Dec 18 04:43:36 10.71.60.0 a1391897 [10.71.60.0|put|0|454|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 04:44:16 10.71.60.0 a1391897 open "/config/db.php" flags READ mode 0666
+Dec 18 04:44:17 10.71.60.0 a1391897 close "/config/db.php" bytes read 862 written 0
+Dec 18 04:44:17 10.71.60.0 a1391897 [10.71.60.0|get|1|862|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 04:44:21 10.71.60.0 a1391897 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:44:22 10.71.60.0 a1391897 close "/config/db.php" bytes read 0 written 869
+Dec 18 04:44:22 10.71.60.0 a1391897 [10.71.60.0|put|1|869|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 04:45:59 10.71.60.0 a1472313 session closed for local user a1472313 from [10.71.60.0]
+Dec 18 04:45:59 10.71.60.0 a1472313 Received disconnect from 10.71.60.0 port 36290:11: Connection terminated by the client.
+Dec 18 04:49:28 10.71.60.0 a1391897 session closed for local user a1391897 from [10.71.60.0]
+Dec 18 04:49:28 10.71.60.0 a1391897 Connection closed by 10.71.60.0 port 37276
+Dec 18 04:54:57 10.71.60.0 a2554659 Connection from 10.71.60.0 port 47644 on 66.175.237.39 port 22 rdomain ""
+Dec 18 04:54:57 10.71.60.0 a2554659 Accepted password for a2554659 from 10.71.60.0 port 47644 ssh2
+Dec 18 04:54:58 10.71.60.0 a2554659 Starting session: subsystem 'sftp' for a2554659 from 10.71.60.0 port 47644 id 0
+Dec 18 04:54:58 10.71.60.0 a2554659 session opened for local user a2554659 from [10.71.60.0]
+Dec 18 04:55:45 10.71.60.0 a2554659 open "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:55:45 10.71.60.0 a2554659 close "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png" bytes read 0 written 123587
+Dec 18 04:55:45 10.71.60.0 a2554659 [10.71.60.0|put|0|123587|0|0|0|2f7075626c69632f696d672f33623438376230392d663630632d343034612d393361622d3163626139343865343431372e706e67|]
+Dec 18 04:56:15 10.71.60.0 a2554659 open "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:15 10.71.60.0 a2554659 close "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png" bytes read 0 written 95295
+Dec 18 04:56:15 10.71.60.0 a2554659 [10.71.60.0|put|0|95295|0|0|0|2f7075626c69632f696d672f35656662376437632d306433662d346230312d616531662d3332303362613034666534372e706e67|]
+Dec 18 04:56:16 10.71.60.0 a2554659 open "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:16 10.71.60.0 a2554659 close "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png" bytes read 0 written 61765
+Dec 18 04:56:16 10.71.60.0 a2554659 [10.71.60.0|put|0|61765|0|0|0|2f7075626c69632f696d672f36656434663134362d316435302d343233372d383531342d3237393931326230323765332e706e67|]
+Dec 18 04:56:17 10.71.60.0 a2554659 open "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:17 10.71.60.0 a2554659 close "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png" bytes read 0 written 25736
+Dec 18 04:56:17 10.71.60.0 a2554659 [10.71.60.0|put|0|25736|0|0|0|2f7075626c69632f696d672f61663436376337342d663731382d343036362d626361322d3637656432343035323564372e706e67|]
+Dec 18 04:56:18 10.71.60.0 a2554659 open "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:18 10.71.60.0 a2554659 close "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" bytes read 0 written 149426
+Dec 18 04:56:18 10.71.60.0 a2554659 [10.71.60.0|put|0|149426|0|0|0|2f7075626c69632f696d672f63656436353431632d376530622d346636392d613166392d3066656565636637653137372e706e67|]
+Dec 18 04:56:19 10.71.60.0 a2554659 open "/public/img/A_collage_of_three_client_testimonial_photographs_.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:19 10.71.60.0 a2554659 close "/public/img/A_collage_of_three_client_testimonial_photographs_.png" bytes read 0 written 608377
+Dec 18 04:56:19 10.71.60.0 a2554659 [10.71.60.0|put|0|608377|0|0|0|2f7075626c69632f696d672f415f636f6c6c6167655f6f665f74687265655f636c69656e745f74657374696d6f6e69616c5f70686f746f6772617068735f2e706e67|]
+Dec 18 04:56:20 10.71.60.0 a2554659 open "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:20 10.71.60.0 a2554659 close "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png" bytes read 0 written 5342
+Dec 18 04:56:20 10.71.60.0 a2554659 [10.71.60.0|put|0|5342|0|0|0|2f7075626c69632f696d672f61613932653835322d353266302d343732342d386635392d3561613262333563363034652e706e67|]
+Dec 18 04:56:20 10.71.60.0 a2554659 open "/public/img/A_collection_of_six_high-quality,_professional_dig.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:21 10.71.60.0 a2554659 close "/public/img/A_collection_of_six_high-quality,_professional_dig.png" bytes read 0 written 2406782
+Dec 18 04:56:21 10.71.60.0 a2554659 [10.71.60.0|put|1|2406782|0|0|0|2f7075626c69632f696d672f415f636f6c6c656374696f6e5f6f665f7369785f686967682d7175616c6974792c5f70726f66657373696f6e616c5f6469672e706e67|]
+Dec 18 04:56:32 10.71.60.0 a2554659 open "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 04:56:33 10.71.60.0 a2554659 close "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" bytes read 0 written 149426
+Dec 18 04:56:33 10.71.60.0 a2554659 [10.71.60.0|put|1|149426|0|0|0|2f7075626c69632f696d672f63656436353431632d376530622d346636392d613166392d3066656565636637653137372e706e67|]
+Dec 18 05:01:34 10.71.60.0 a2554659 session closed for local user a2554659 from [10.71.60.0]
+Dec 18 05:01:34 10.71.60.0 a2554659 Connection closed by 10.71.60.0 port 47644
+Dec 18 05:04:09 10.71.60.0 a1472313 Connection from 10.71.60.0 port 55786 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:04:10 10.71.60.0 a1472313 Accepted password for a1472313 from 10.71.60.0 port 55786 ssh2
+Dec 18 05:04:10 10.71.60.0 a1472313 Starting session: subsystem 'sftp' for a1472313 from 10.71.60.0 port 55786 id 0
+Dec 18 05:04:10 10.71.60.0 a1472313 session opened for local user a1472313 from [10.71.60.0]
+Dec 18 05:06:08 10.71.60.0 a843606 Connection from 10.71.60.0 port 27866 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:06:11 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 27866 ssh2
+Dec 18 05:06:12 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 27866 id 0
+Dec 18 05:06:12 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:08:09 10.71.60.0 a843606 Connection from 10.71.60.0 port 51162 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:08:09 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 51162 ssh2
+Dec 18 05:08:09 10.71.60.0 a843606 Connection from 10.71.60.0 port 51176 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:08:09 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 51176 ssh2
+Dec 18 05:08:10 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 51162 id 0
+Dec 18 05:08:10 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 51176 id 0
+Dec 18 05:08:10 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:08:10 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:08:29 10.71.60.0 a843606 open "/config/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:29 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 0 written 357
+Dec 18 05:08:29 10.71.60.0 a843606 [10.71.60.0|put|0|357|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:08:31 10.71.60.0 a843606 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:31 10.71.60.0 a843606 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:31 10.71.60.0 a843606 close "/config/mail.php" bytes read 0 written 534
+Dec 18 05:08:31 10.71.60.0 a843606 [10.71.60.0|put|0|534|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:08:31 10.71.60.0 a843606 close "/config/db.php" bytes read 0 written 256
+Dec 18 05:08:31 10.71.60.0 a843606 [10.71.60.0|put|0|256|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:08:32 10.71.60.0 a843606 open "/db/schema.sql" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:32 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:32 10.71.60.0 a843606 close "/db/schema.sql" bytes read 0 written 2977
+Dec 18 05:08:32 10.71.60.0 a843606 [10.71.60.0|put|0|2977|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:08:32 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 1254
+Dec 18 05:08:32 10.71.60.0 a843606 [10.71.60.0|put|0|1254|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:08:32 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:33 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 1194
+Dec 18 05:08:33 10.71.60.0 a843606 [10.71.60.0|put|1|1194|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:08:33 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:33 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:33 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 5308
+Dec 18 05:08:33 10.71.60.0 a843606 [10.71.60.0|put|0|5308|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:08:33 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 1186
+Dec 18 05:08:33 10.71.60.0 a843606 [10.71.60.0|put|0|1186|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:08:34 10.71.60.0 a843606 open "/public/api/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:34 10.71.60.0 a843606 open "/public/api/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:34 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 0 written 197
+Dec 18 05:08:34 10.71.60.0 a843606 [10.71.60.0|put|0|197|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 05:08:34 10.71.60.0 a843606 close "/public/api/services.php" bytes read 0 written 168
+Dec 18 05:08:34 10.71.60.0 a843606 [10.71.60.0|put|0|168|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 05:08:34 10.71.60.0 a843606 open "/public/api/submit_contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:34 10.71.60.0 a843606 close "/public/api/submit_contact.php" bytes read 0 written 192
+Dec 18 05:08:34 10.71.60.0 a843606 [10.71.60.0|put|0|192|0|0|0|2f7075626c69632f6170692f7375626d69745f636f6e746163742e706870|]
+Dec 18 05:08:34 10.71.60.0 a843606 open "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:34 10.71.60.0 a843606 open "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:35 10.71.60.0 a843606 close "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png" bytes read 0 written 95295
+Dec 18 05:08:35 10.71.60.0 a843606 [10.71.60.0|put|1|95295|0|0|0|2f7075626c69632f696d672f35656662376437632d306433662d346230312d616531662d3332303362613034666534372e706e67|]
+Dec 18 05:08:35 10.71.60.0 a843606 close "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png" bytes read 0 written 123587
+Dec 18 05:08:35 10.71.60.0 a843606 [10.71.60.0|put|1|123587|0|0|0|2f7075626c69632f696d672f33623438376230392d663630632d343034612d393361622d3163626139343865343431372e706e67|]
+Dec 18 05:08:35 10.71.60.0 a843606 open "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:35 10.71.60.0 a843606 open "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:35 10.71.60.0 a843606 close "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png" bytes read 0 written 5342
+Dec 18 05:08:35 10.71.60.0 a843606 [10.71.60.0|put|0|5342|0|0|0|2f7075626c69632f696d672f61613932653835322d353266302d343732342d386635392d3561613262333563363034652e706e67|]
+Dec 18 05:08:35 10.71.60.0 a843606 close "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png" bytes read 0 written 61765
+Dec 18 05:08:35 10.71.60.0 a843606 [10.71.60.0|put|0|61765|0|0|0|2f7075626c69632f696d672f36656434663134362d316435302d343233372d383531342d3237393931326230323765332e706e67|]
+Dec 18 05:08:35 10.71.60.0 a843606 open "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:35 10.71.60.0 a843606 open "/public/img/A_collage_of_three_client_testimonial_photographs_.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:35 10.71.60.0 a843606 close "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png" bytes read 0 written 25736
+Dec 18 05:08:35 10.71.60.0 a843606 [10.71.60.0|put|0|25736|0|0|0|2f7075626c69632f696d672f61663436376337342d663731382d343036362d626361322d3637656432343035323564372e706e67|]
+Dec 18 05:08:35 10.71.60.0 a843606 open "/public/img/A_collection_of_six_high-quality,_professional_dig.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:35 10.71.60.0 a843606 close "/public/img/A_collage_of_three_client_testimonial_photographs_.png" bytes read 0 written 608377
+Dec 18 05:08:35 10.71.60.0 a843606 [10.71.60.0|put|0|608377|0|0|0|2f7075626c69632f696d672f415f636f6c6c6167655f6f665f74687265655f636c69656e745f74657374696d6f6e69616c5f70686f746f6772617068735f2e706e67|]
+Dec 18 05:08:36 10.71.60.0 a843606 open "/public/img/A_digital_vector_vector-style_logo_for__Ongoingtea.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:36 10.71.60.0 a843606 close "/public/img/A_digital_vector_vector-style_logo_for__Ongoingtea.png" bytes read 0 written 177463
+Dec 18 05:08:36 10.71.60.0 a843606 [10.71.60.0|put|0|177463|0|0|0|2f7075626c69632f696d672f415f6469676974616c5f766563746f725f766563746f722d7374796c655f6c6f676f5f666f725f5f4f6e676f696e677465612e706e67|]
+Dec 18 05:08:36 10.71.60.0 a843606 close "/public/img/A_collection_of_six_high-quality,_professional_dig.png" bytes read 0 written 2406782
+Dec 18 05:08:36 10.71.60.0 a843606 [10.71.60.0|put|1|2406782|0|0|0|2f7075626c69632f696d672f415f636f6c6c656374696f6e5f6f665f7369785f686967682d7175616c6974792c5f70726f66657373696f6e616c5f6469672e706e67|]
+Dec 18 05:08:36 10.71.60.0 a843606 open "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:36 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:36 10.71.60.0 a843606 close "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" bytes read 0 written 149426
+Dec 18 05:08:36 10.71.60.0 a843606 [10.71.60.0|put|0|149426|0|0|0|2f7075626c69632f696d672f63656436353431632d376530622d346636392d613166392d3066656565636637653137372e706e67|]
+Dec 18 05:08:36 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 0 written 233
+Dec 18 05:08:36 10.71.60.0 a843606 [10.71.60.0|put|0|233|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:08:37 10.71.60.0 a843606 open "/public/assets/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:37 10.71.60.0 a843606 open "/public/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:08:37 10.71.60.0 a843606 close "/public/assets/css/style.css" bytes read 0 written 3514
+Dec 18 05:08:37 10.71.60.0 a843606 [10.71.60.0|put|0|3514|0|0|0|2f7075626c69632f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:08:37 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 0 written 70
+Dec 18 05:08:37 10.71.60.0 a843606 [10.71.60.0|put|0|70|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:09:11 10.71.60.0 a1472313 session closed for local user a1472313 from [10.71.60.0]
+Dec 18 05:09:12 10.71.60.0 a1472313 Received disconnect from 10.71.60.0 port 55786:11: Connection terminated by the client.
+Dec 18 05:09:12 10.71.60.0 a843606 remove name "/README_SETUP.md"
+Dec 18 05:09:12 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f524541444d455f53455455502e6d64|]
+Dec 18 05:09:12 10.71.60.0 a843606 remove name "/ongoingteam_new_files (1).zip"
+Dec 18 05:09:12 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6f6e676f696e677465616d5f6e65775f66696c6573202831292e7a6970|]
+Dec 18 05:09:13 10.71.60.0 a843606 remove name "/config/db.php"
+Dec 18 05:09:13 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:09:13 10.71.60.0 a843606 remove name "/config/contact_config.php"
+Dec 18 05:09:13 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:09:13 10.71.60.0 a843606 remove name "/config/mail.php"
+Dec 18 05:09:13 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:09:14 10.71.60.0 a843606 rmdir name "/config"
+Dec 18 05:09:14 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f636f6e666967|]
+Dec 18 05:09:15 10.71.60.0 a843606 remove name "/db/schema.sql"
+Dec 18 05:09:15 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:09:15 10.71.60.0 a843606 rmdir name "/db"
+Dec 18 05:09:15 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f6462|]
+Dec 18 05:09:16 10.71.60.0 a843606 remove name "/lib/SmtpMailer.php"
+Dec 18 05:09:16 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6c69622f536d74704d61696c65722e706870|]
+Dec 18 05:09:16 10.71.60.0 a843606 remove name "/lib/helpers.php"
+Dec 18 05:09:16 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6c69622f68656c706572732e706870|]
+Dec 18 05:09:16 10.71.60.0 a843606 remove name "/lib/services_repo.php"
+Dec 18 05:09:16 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6c69622f73657276696365735f7265706f2e706870|]
+Dec 18 05:09:16 10.71.60.0 a843606 remove name "/lib/availability.php"
+Dec 18 05:09:16 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6c69622f617661696c6162696c6974792e706870|]
+Dec 18 05:09:16 10.71.60.0 a843606 rmdir name "/lib"
+Dec 18 05:09:16 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f6c6962|]
+Dec 18 05:09:17 10.71.60.0 a843606 remove name "/public/services.php"
+Dec 18 05:09:17 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:09:17 10.71.60.0 a843606 remove name "/public/contact.php"
+Dec 18 05:09:17 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:09:17 10.71.60.0 a843606 remove name "/public/prices.php"
+Dec 18 05:09:17 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:09:17 10.71.60.0 a843606 remove name "/public/index.php"
+Dec 18 05:09:17 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:09:18 10.71.60.0 a843606 remove name "/public/api/services.php"
+Dec 18 05:09:18 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 05:09:18 10.71.60.0 a843606 remove name "/public/api/availability.php"
+Dec 18 05:09:18 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 05:09:18 10.71.60.0 a843606 remove name "/public/api/book.php"
+Dec 18 05:09:18 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f626f6f6b2e706870|]
+Dec 18 05:09:19 10.71.60.0 a843606 remove name "/public/api/submit_contact.php"
+Dec 18 05:09:19 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f7375626d69745f636f6e746163742e706870|]
+Dec 18 05:09:19 10.71.60.0 a843606 rmdir name "/public/api"
+Dec 18 05:09:19 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f617069|]
+Dec 18 05:09:20 10.71.60.0 a843606 remove name "/public/assets/js/contact.js"
+Dec 18 05:09:20 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 05:09:20 10.71.60.0 a843606 remove name "/public/assets/js/site.js"
+Dec 18 05:09:20 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:09:21 10.71.60.0 a843606 rmdir name "/public/assets/js"
+Dec 18 05:09:21 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f6173736574732f6a73|]
+Dec 18 05:09:21 10.71.60.0 a843606 remove name "/public/assets/css/lux.css"
+Dec 18 05:09:21 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6373732f6c75782e637373|]
+Dec 18 05:09:22 10.71.60.0 a843606 remove name "/public/assets/css/style.css"
+Dec 18 05:09:22 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:09:22 10.71.60.0 a843606 rmdir name "/public/assets/css"
+Dec 18 05:09:22 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f6173736574732f637373|]
+Dec 18 05:09:22 10.71.60.0 a843606 rmdir name "/public/assets"
+Dec 18 05:09:22 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f617373657473|]
+Dec 18 05:09:23 10.71.60.0 a843606 remove name "/public/img/ongoingteam-o.svg"
+Dec 18 05:09:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:09:23 10.71.60.0 a843606 remove name "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png"
+Dec 18 05:09:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f33623438376230392d663630632d343034612d393361622d3163626139343865343431372e706e67|]
+Dec 18 05:09:23 10.71.60.0 a843606 remove name "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png"
+Dec 18 05:09:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f35656662376437632d306433662d346230312d616531662d3332303362613034666534372e706e67|]
+Dec 18 05:09:23 10.71.60.0 a843606 remove name "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png"
+Dec 18 05:09:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f36656434663134362d316435302d343233372d383531342d3237393931326230323765332e706e67|]
+Dec 18 05:09:23 10.71.60.0 a843606 remove name "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png"
+Dec 18 05:09:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f61663436376337342d663731382d343036362d626361322d3637656432343035323564372e706e67|]
+Dec 18 05:09:23 10.71.60.0 a843606 remove name "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png"
+Dec 18 05:09:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f63656436353431632d376530622d346636392d613166392d3066656565636637653137372e706e67|]
+Dec 18 05:09:24 10.71.60.0 a843606 remove name "/public/img/A_collage_of_three_client_testimonial_photographs_.png"
+Dec 18 05:09:24 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f415f636f6c6c6167655f6f665f74687265655f636c69656e745f74657374696d6f6e69616c5f70686f746f6772617068735f2e706e67|]
+Dec 18 05:09:24 10.71.60.0 a843606 remove name "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png"
+Dec 18 05:09:24 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f61613932653835322d353266302d343732342d386635392d3561613262333563363034652e706e67|]
+Dec 18 05:09:24 10.71.60.0 a843606 remove name "/public/img/A_collection_of_six_high-quality,_professional_dig.png"
+Dec 18 05:09:24 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f415f636f6c6c656374696f6e5f6f665f7369785f686967682d7175616c6974792c5f70726f66657373696f6e616c5f6469672e706e67|]
+Dec 18 05:09:24 10.71.60.0 a843606 remove name "/public/img/A_digital_vector_vector-style_logo_for__Ongoingtea.png"
+Dec 18 05:09:24 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f415f6469676974616c5f766563746f725f766563746f722d7374796c655f6c6f676f5f666f725f5f4f6e676f696e677465612e706e67|]
+Dec 18 05:09:24 10.71.60.0 a843606 rmdir name "/public/img"
+Dec 18 05:09:24 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f696d67|]
+Dec 18 05:09:24 10.71.60.0 a843606 rmdir name "/public"
+Dec 18 05:09:24 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c6963|]
+Dec 18 05:09:37 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 51162
+Dec 18 05:09:37 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:09:37 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 51176
+Dec 18 05:09:37 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:10:18 10.71.60.0 a843606 Connection from 10.71.60.0 port 58922 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:10:18 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 58922 ssh2
+Dec 18 05:10:18 10.71.60.0 a843606 Connection from 10.71.60.0 port 58906 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:10:18 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 58906 ssh2
+Dec 18 05:10:19 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 58922 id 0
+Dec 18 05:10:19 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 58906 id 0
+Dec 18 05:10:19 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:10:19 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:10:19 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:19 10.71.60.0 a843606 mkdir name "/config" mode 0777
+Dec 18 05:10:19 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f636f6e666967|]
+Dec 18 05:10:20 10.71.60.0 a843606 open "/config/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:20 10.71.60.0 a843606 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:20 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 0 written 357
+Dec 18 05:10:20 10.71.60.0 a843606 [10.71.60.0|put|0|357|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:10:20 10.71.60.0 a843606 close "/config/db.php" bytes read 0 written 256
+Dec 18 05:10:20 10.71.60.0 a843606 [10.71.60.0|put|0|256|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:10:20 10.71.60.0 a843606 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:20 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:21 10.71.60.0 a843606 close "/config/mail.php" bytes read 0 written 534
+Dec 18 05:10:21 10.71.60.0 a843606 [10.71.60.0|put|1|534|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:10:21 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:21 10.71.60.0 a843606 mkdir name "/db" mode 0777
+Dec 18 05:10:21 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f6462|]
+Dec 18 05:10:21 10.71.60.0 a843606 mkdir name "/public" mode 0777
+Dec 18 05:10:21 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c6963|]
+Dec 18 05:10:21 10.71.60.0 a843606 open "/db/schema.sql" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:22 10.71.60.0 a843606 close "/db/schema.sql" bytes read 0 written 2977
+Dec 18 05:10:22 10.71.60.0 a843606 [10.71.60.0|put|1|2977|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:10:22 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:22 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 1254
+Dec 18 05:10:22 10.71.60.0 a843606 [10.71.60.0|put|0|1254|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:10:22 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:22 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:22 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 5308
+Dec 18 05:10:22 10.71.60.0 a843606 [10.71.60.0|put|0|5308|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:10:22 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 1194
+Dec 18 05:10:22 10.71.60.0 a843606 [10.71.60.0|put|0|1194|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:10:22 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:22 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:22 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 1186
+Dec 18 05:10:22 10.71.60.0 a843606 [10.71.60.0|put|0|1186|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:10:23 10.71.60.0 a843606 mkdir name "/public/api" mode 0777
+Dec 18 05:10:23 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f617069|]
+Dec 18 05:10:23 10.71.60.0 a843606 open "/public/api/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:23 10.71.60.0 a843606 open "/public/api/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:23 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 0 written 197
+Dec 18 05:10:23 10.71.60.0 a843606 [10.71.60.0|put|0|197|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 05:10:23 10.71.60.0 a843606 close "/public/api/services.php" bytes read 0 written 168
+Dec 18 05:10:23 10.71.60.0 a843606 [10.71.60.0|put|0|168|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 05:10:24 10.71.60.0 a843606 open "/public/api/submit_contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:24 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:24 10.71.60.0 a843606 close "/public/api/submit_contact.php" bytes read 0 written 192
+Dec 18 05:10:24 10.71.60.0 a843606 [10.71.60.0|put|0|192|0|0|0|2f7075626c69632f6170692f7375626d69745f636f6e746163742e706870|]
+Dec 18 05:10:24 10.71.60.0 a843606 mkdir name "/public/img" mode 0777
+Dec 18 05:10:24 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f696d67|]
+Dec 18 05:10:25 10.71.60.0 a843606 open "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:25 10.71.60.0 a843606 open "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:25 10.71.60.0 a843606 close "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png" bytes read 0 written 95295
+Dec 18 05:10:25 10.71.60.0 a843606 [10.71.60.0|put|0|95295|0|0|0|2f7075626c69632f696d672f35656662376437632d306433662d346230312d616531662d3332303362613034666534372e706e67|]
+Dec 18 05:10:25 10.71.60.0 a843606 close "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png" bytes read 0 written 123587
+Dec 18 05:10:25 10.71.60.0 a843606 [10.71.60.0|put|0|123587|0|0|0|2f7075626c69632f696d672f33623438376230392d663630632d343034612d393361622d3163626139343865343431372e706e67|]
+Dec 18 05:10:25 10.71.60.0 a843606 open "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:25 10.71.60.0 a843606 open "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:25 10.71.60.0 a843606 close "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png" bytes read 0 written 5342
+Dec 18 05:10:25 10.71.60.0 a843606 [10.71.60.0|put|0|5342|0|0|0|2f7075626c69632f696d672f61613932653835322d353266302d343732342d386635392d3561613262333563363034652e706e67|]
+Dec 18 05:10:25 10.71.60.0 a843606 close "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png" bytes read 0 written 61765
+Dec 18 05:10:25 10.71.60.0 a843606 [10.71.60.0|put|0|61765|0|0|0|2f7075626c69632f696d672f36656434663134362d316435302d343233372d383531342d3237393931326230323765332e706e67|]
+Dec 18 05:10:25 10.71.60.0 a843606 open "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:25 10.71.60.0 a843606 open "/public/img/A_collage_of_three_client_testimonial_photographs_.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:26 10.71.60.0 a843606 close "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png" bytes read 0 written 25736
+Dec 18 05:10:26 10.71.60.0 a843606 [10.71.60.0|put|1|25736|0|0|0|2f7075626c69632f696d672f61663436376337342d663731382d343036362d626361322d3637656432343035323564372e706e67|]
+Dec 18 05:10:26 10.71.60.0 a843606 open "/public/img/A_collection_of_six_high-quality,_professional_dig.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:26 10.71.60.0 a843606 close "/public/img/A_collage_of_three_client_testimonial_photographs_.png" bytes read 0 written 608377
+Dec 18 05:10:26 10.71.60.0 a843606 [10.71.60.0|put|1|608377|0|0|0|2f7075626c69632f696d672f415f636f6c6c6167655f6f665f74687265655f636c69656e745f74657374696d6f6e69616c5f70686f746f6772617068735f2e706e67|]
+Dec 18 05:10:26 10.71.60.0 a843606 open "/public/img/A_digital_vector_vector-style_logo_for__Ongoingtea.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:26 10.71.60.0 a843606 close "/public/img/A_digital_vector_vector-style_logo_for__Ongoingtea.png" bytes read 0 written 177463
+Dec 18 05:10:26 10.71.60.0 a843606 [10.71.60.0|put|0|177463|0|0|0|2f7075626c69632f696d672f415f6469676974616c5f766563746f725f766563746f722d7374796c655f6c6f676f5f666f725f5f4f6e676f696e677465612e706e67|]
+Dec 18 05:10:26 10.71.60.0 a843606 close "/public/img/A_collection_of_six_high-quality,_professional_dig.png" bytes read 0 written 2406782
+Dec 18 05:10:26 10.71.60.0 a843606 [10.71.60.0|put|0|2406782|0|0|0|2f7075626c69632f696d672f415f636f6c6c656374696f6e5f6f665f7369785f686967682d7175616c6974792c5f70726f66657373696f6e616c5f6469672e706e67|]
+Dec 18 05:10:26 10.71.60.0 a843606 open "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:26 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:26 10.71.60.0 a843606 close "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png" bytes read 0 written 149426
+Dec 18 05:10:26 10.71.60.0 a843606 [10.71.60.0|put|0|149426|0|0|0|2f7075626c69632f696d672f63656436353431632d376530622d346636392d613166392d3066656565636637653137372e706e67|]
+Dec 18 05:10:26 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:26 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 0 written 233
+Dec 18 05:10:26 10.71.60.0 a843606 [10.71.60.0|put|0|233|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:10:27 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:27 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:27 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:27 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:27 10.71.60.0 a843606 sent status No such file
+Dec 18 05:10:27 10.71.60.0 a843606 mkdir name "/public/assets" mode 0777
+Dec 18 05:10:27 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f617373657473|]
+Dec 18 05:10:27 10.71.60.0 a843606 mkdir name "/public/assets" mode 0777
+Dec 18 05:10:27 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|17|2f7075626c69632f617373657473|]
+Dec 18 05:10:27 10.71.60.0 a843606 sent status Failure
+Dec 18 05:10:27 10.71.60.0 a843606 mkdir name "/public/assets/js" mode 0777
+Dec 18 05:10:27 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f6173736574732f6a73|]
+Dec 18 05:10:27 10.71.60.0 a843606 mkdir name "/public/assets/css" mode 0777
+Dec 18 05:10:27 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f6173736574732f637373|]
+Dec 18 05:10:28 10.71.60.0 a843606 open "/public/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:28 10.71.60.0 a843606 open "/public/assets/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:10:28 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 0 written 70
+Dec 18 05:10:28 10.71.60.0 a843606 [10.71.60.0|put|0|70|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:10:28 10.71.60.0 a843606 close "/public/assets/css/style.css" bytes read 0 written 3514
+Dec 18 05:10:28 10.71.60.0 a843606 [10.71.60.0|put|0|3514|0|0|0|2f7075626c69632f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:10:37 10.71.60.0 a2871714 Connection from 10.71.60.0 port 21084 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:10:37 10.71.60.0 a2871714 Accepted password for a2871714 from 10.71.60.0 port 21084 ssh2
+Dec 18 05:10:38 10.71.60.0 a2871714 Starting session: subsystem 'sftp' for a2871714 from 10.71.60.0 port 21084 id 0
+Dec 18 05:10:38 10.71.60.0 a2871714 session opened for local user a2871714 from [10.71.60.0]
+Dec 18 05:10:49 10.71.60.0 a2871714 open "/config/contact_config.php" flags READ mode 0666
+Dec 18 05:10:50 10.71.60.0 a2871714 close "/config/contact_config.php" bytes read 357 written 0
+Dec 18 05:10:50 10.71.60.0 a2871714 [10.71.60.0|get|1|357|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:11:04 10.71.60.0 a2871714 open "/config/db.php" flags READ mode 0666
+Dec 18 05:11:04 10.71.60.0 a2871714 close "/config/db.php" bytes read 256 written 0
+Dec 18 05:11:04 10.71.60.0 a2871714 [10.71.60.0|get|0|256|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:11:14 10.71.60.0 a2871714 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:11:14 10.71.60.0 a2871714 close "/config/db.php" bytes read 0 written 244
+Dec 18 05:11:14 10.71.60.0 a2871714 [10.71.60.0|put|0|244|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:11:24 10.71.60.0 a2871714 open "/config/mail.php" flags READ mode 0666
+Dec 18 05:11:25 10.71.60.0 a2871714 close "/config/mail.php" bytes read 534 written 0
+Dec 18 05:11:25 10.71.60.0 a2871714 [10.71.60.0|get|1|534|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:11:28 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 58922
+Dec 18 05:11:28 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:11:28 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 58906
+Dec 18 05:11:28 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:11:34 10.71.60.0 a2871714 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:11:35 10.71.60.0 a2871714 close "/config/mail.php" bytes read 0 written 536
+Dec 18 05:11:35 10.71.60.0 a2871714 [10.71.60.0|put|1|536|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:12:04 10.71.60.0 a2871714 open "/config/db.php" flags READ mode 0666
+Dec 18 05:12:04 10.71.60.0 a2871714 close "/config/db.php" bytes read 244 written 0
+Dec 18 05:12:04 10.71.60.0 a2871714 [10.71.60.0|get|0|244|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:18:11 10.71.60.0 a2871714 Connection closed by 10.71.60.0 port 21084
+Dec 18 05:18:11 10.71.60.0 a2871714 session closed for local user a2871714 from [10.71.60.0]
+Dec 18 05:18:46 10.71.60.0 a786044 Connection from 10.71.60.0 port 54566 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:18:46 10.71.60.0 a786044 Accepted password for a786044 from 10.71.60.0 port 54566 ssh2
+Dec 18 05:18:47 10.71.60.0 a786044 Starting session: subsystem 'sftp' for a786044 from 10.71.60.0 port 54566 id 0
+Dec 18 05:18:47 10.71.60.0 a786044 session opened for local user a786044 from [10.71.60.0]
+Dec 18 05:18:50 10.71.60.0 a786044 open "/public/index.php" flags READ mode 0666
+Dec 18 05:18:51 10.71.60.0 a786044 close "/public/index.php" bytes read 5308 written 0
+Dec 18 05:18:51 10.71.60.0 a786044 [10.71.60.0|get|1|5308|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:23:51 10.71.60.0 a786044 session closed for local user a786044 from [10.71.60.0]
+Dec 18 05:23:51 10.71.60.0 a786044 Connection closed by 10.71.60.0 port 54566
+Dec 18 05:29:31 10.71.60.0 a843606 remove name "/config/contact_config.php"
+Dec 18 05:29:31 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:29:31 10.71.60.0 a843606 remove name "/config/db.php"
+Dec 18 05:29:31 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:29:31 10.71.60.0 a843606 remove name "/config/mail.php"
+Dec 18 05:29:31 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:29:31 10.71.60.0 a843606 rmdir name "/config"
+Dec 18 05:29:31 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f636f6e666967|]
+Dec 18 05:29:32 10.71.60.0 a843606 remove name "/db/schema.sql"
+Dec 18 05:29:32 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:29:32 10.71.60.0 a843606 rmdir name "/db"
+Dec 18 05:29:32 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f6462|]
+Dec 18 05:29:33 10.71.60.0 a843606 remove name "/public/contact.php"
+Dec 18 05:29:33 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:29:33 10.71.60.0 a843606 remove name "/public/index.php"
+Dec 18 05:29:33 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:29:33 10.71.60.0 a843606 remove name "/public/prices.php"
+Dec 18 05:29:33 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:29:34 10.71.60.0 a843606 remove name "/public/services.php"
+Dec 18 05:29:34 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:29:34 10.71.60.0 a843606 remove name "/public/api/availability.php"
+Dec 18 05:29:34 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 05:29:34 10.71.60.0 a843606 remove name "/public/api/services.php"
+Dec 18 05:29:34 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 05:29:35 10.71.60.0 a843606 remove name "/public/api/submit_contact.php"
+Dec 18 05:29:35 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f7375626d69745f636f6e746163742e706870|]
+Dec 18 05:29:35 10.71.60.0 a843606 rmdir name "/public/api"
+Dec 18 05:29:35 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f617069|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/5efb7d7c-0d3f-4b01-ae1f-3203ba04fe47.png"
+Dec 18 05:29:36 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f35656662376437632d306433662d346230312d616531662d3332303362613034666534372e706e67|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/3b487b09-f60c-404a-93ab-1cba948e4417.png"
+Dec 18 05:29:36 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f33623438376230392d663630632d343034612d393361622d3163626139343865343431372e706e67|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/6ed4f146-1d50-4237-8514-279912b027e3.png"
+Dec 18 05:29:36 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f36656434663134362d316435302d343233372d383531342d3237393931326230323765332e706e67|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/aa92e852-52f0-4724-8f59-5aa2b35c604e.png"
+Dec 18 05:29:36 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f61613932653835322d353266302d343732342d386635392d3561613262333563363034652e706e67|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/af467c74-f718-4066-bca2-67ed240525d7.png"
+Dec 18 05:29:36 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f61663436376337342d663731382d343036362d626361322d3637656432343035323564372e706e67|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/A_collage_of_three_client_testimonial_photographs_.png"
+Dec 18 05:29:36 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f415f636f6c6c6167655f6f665f74687265655f636c69656e745f74657374696d6f6e69616c5f70686f746f6772617068735f2e706e67|]
+Dec 18 05:29:36 10.71.60.0 a843606 remove name "/public/img/A_collection_of_six_high-quality,_professional_dig.png"
+Dec 18 05:29:37 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f415f636f6c6c656374696f6e5f6f665f7369785f686967682d7175616c6974792c5f70726f66657373696f6e616c5f6469672e706e67|]
+Dec 18 05:29:37 10.71.60.0 a843606 remove name "/public/img/A_digital_vector_vector-style_logo_for__Ongoingtea.png"
+Dec 18 05:29:37 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f415f6469676974616c5f766563746f725f766563746f722d7374796c655f6c6f676f5f666f725f5f4f6e676f696e677465612e706e67|]
+Dec 18 05:29:37 10.71.60.0 a843606 remove name "/public/img/ced6541c-7e0b-4f69-a1f9-0feeecf7e177.png"
+Dec 18 05:29:37 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f63656436353431632d376530622d346636392d613166392d3066656565636637653137372e706e67|]
+Dec 18 05:29:37 10.71.60.0 a843606 remove name "/public/img/ongoingteam-o.svg"
+Dec 18 05:29:37 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:29:37 10.71.60.0 a843606 rmdir name "/public/img"
+Dec 18 05:29:37 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f696d67|]
+Dec 18 05:29:39 10.71.60.0 a843606 remove name "/public/assets/js/site.js"
+Dec 18 05:29:39 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:29:39 10.71.60.0 a843606 rmdir name "/public/assets/js"
+Dec 18 05:29:39 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f6173736574732f6a73|]
+Dec 18 05:29:40 10.71.60.0 a843606 remove name "/public/assets/css/style.css"
+Dec 18 05:29:40 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:29:40 10.71.60.0 a843606 rmdir name "/public/assets/css"
+Dec 18 05:29:40 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f6173736574732f637373|]
+Dec 18 05:29:40 10.71.60.0 a843606 rmdir name "/public/assets"
+Dec 18 05:29:40 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f617373657473|]
+Dec 18 05:29:40 10.71.60.0 a843606 rmdir name "/public"
+Dec 18 05:29:40 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c6963|]
+Dec 18 05:29:49 10.71.60.0 a843606 Connection from 10.71.60.0 port 62376 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:29:49 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 62376 ssh2
+Dec 18 05:29:49 10.71.60.0 a843606 Connection from 10.71.60.0 port 62392 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:29:49 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 62392 ssh2
+Dec 18 05:29:50 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 62376 id 0
+Dec 18 05:29:50 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 62392 id 0
+Dec 18 05:29:50 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:29:50 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:29:50 10.71.60.0 a843606 open "/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:50 10.71.60.0 a843606 close "/contact.php" bytes read 0 written 2896
+Dec 18 05:29:50 10.71.60.0 a843606 [10.71.60.0|put|0|2896|0|0|0|2f636f6e746163742e706870|]
+Dec 18 05:29:50 10.71.60.0 a843606 open "/.htaccess" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:50 10.71.60.0 a843606 open "/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:51 10.71.60.0 a843606 close "/.htaccess" bytes read 0 written 522
+Dec 18 05:29:51 10.71.60.0 a843606 [10.71.60.0|put|0|522|0|0|0|2f2e6874616363657373|]
+Dec 18 05:29:51 10.71.60.0 a843606 close "/index.php" bytes read 0 written 5818
+Dec 18 05:29:51 10.71.60.0 a843606 [10.71.60.0|put|1|5818|0|0|0|2f696e6465782e706870|]
+Dec 18 05:29:51 10.71.60.0 a843606 open "/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:51 10.71.60.0 a843606 open "/README.txt" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:51 10.71.60.0 a843606 close "/prices.php" bytes read 0 written 1077
+Dec 18 05:29:51 10.71.60.0 a843606 [10.71.60.0|put|0|1077|0|0|0|2f7072696365732e706870|]
+Dec 18 05:29:51 10.71.60.0 a843606 close "/README.txt" bytes read 0 written 522
+Dec 18 05:29:51 10.71.60.0 a843606 [10.71.60.0|put|0|522|0|0|0|2f524541444d452e747874|]
+Dec 18 05:29:51 10.71.60.0 a843606 open "/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:51 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:51 10.71.60.0 a843606 close "/services.php" bytes read 0 written 5272
+Dec 18 05:29:51 10.71.60.0 a843606 [10.71.60.0|put|0|5272|0|0|0|2f73657276696365732e706870|]
+Dec 18 05:29:51 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:51 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:51 10.71.60.0 a843606 mkdir name "/api" mode 0777
+Dec 18 05:29:51 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f617069|]
+Dec 18 05:29:51 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:52 10.71.60.0 a843606 mkdir name "/assets" mode 0777
+Dec 18 05:29:52 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f617373657473|]
+Dec 18 05:29:52 10.71.60.0 a843606 open "/api/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:52 10.71.60.0 a843606 mkdir name "/assets/css" mode 0777
+Dec 18 05:29:52 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f6173736574732f637373|]
+Dec 18 05:29:52 10.71.60.0 a843606 close "/api/contact.php" bytes read 0 written 1742
+Dec 18 05:29:52 10.71.60.0 a843606 [10.71.60.0|put|0|1742|0|0|0|2f6170692f636f6e746163742e706870|]
+Dec 18 05:29:52 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:53 10.71.60.0 a843606 mkdir name "/assets/js" mode 0777
+Dec 18 05:29:53 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f6173736574732f6a73|]
+Dec 18 05:29:53 10.71.60.0 a843606 open "/assets/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:53 10.71.60.0 a843606 close "/assets/css/style.css" bytes read 0 written 8633
+Dec 18 05:29:53 10.71.60.0 a843606 [10.71.60.0|put|0|8633|0|0|0|2f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:29:53 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:53 10.71.60.0 a843606 open "/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:53 10.71.60.0 a843606 mkdir name "/img" mode 0777
+Dec 18 05:29:53 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f696d67|]
+Dec 18 05:29:54 10.71.60.0 a843606 close "/assets/js/site.js" bytes read 0 written 2632
+Dec 18 05:29:54 10.71.60.0 a843606 [10.71.60.0|put|1|2632|0|0|0|2f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:29:54 10.71.60.0 a843606 open "/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:54 10.71.60.0 a843606 open "/img/ongoingteam-hero.png" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:54 10.71.60.0 a843606 close "/img/ongoingteam-o.svg" bytes read 0 written 549
+Dec 18 05:29:54 10.71.60.0 a843606 [10.71.60.0|put|0|549|0|0|0|2f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:29:54 10.71.60.0 a843606 close "/img/ongoingteam-hero.png" bytes read 0 written 12540
+Dec 18 05:29:54 10.71.60.0 a843606 [10.71.60.0|put|0|12540|0|0|0|2f696d672f6f6e676f696e677465616d2d6865726f2e706e67|]
+Dec 18 05:29:54 10.71.60.0 a843606 sent status No such file
+Dec 18 05:29:55 10.71.60.0 a843606 mkdir name "/partials" mode 0777
+Dec 18 05:29:55 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7061727469616c73|]
+Dec 18 05:29:56 10.71.60.0 a843606 open "/partials/footer.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:56 10.71.60.0 a843606 open "/partials/head.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:56 10.71.60.0 a843606 close "/partials/footer.php" bytes read 0 written 127
+Dec 18 05:29:56 10.71.60.0 a843606 [10.71.60.0|put|0|127|0|0|0|2f7061727469616c732f666f6f7465722e706870|]
+Dec 18 05:29:56 10.71.60.0 a843606 close "/partials/head.php" bytes read 0 written 430
+Dec 18 05:29:56 10.71.60.0 a843606 [10.71.60.0|put|0|430|0|0|0|2f7061727469616c732f686561642e706870|]
+Dec 18 05:29:56 10.71.60.0 a843606 open "/partials/helpers.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:56 10.71.60.0 a843606 open "/partials/nav.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:29:56 10.71.60.0 a843606 close "/partials/helpers.php" bytes read 0 written 82
+Dec 18 05:29:56 10.71.60.0 a843606 [10.71.60.0|put|0|82|0|0|0|2f7061727469616c732f68656c706572732e706870|]
+Dec 18 05:29:56 10.71.60.0 a843606 close "/partials/nav.php" bytes read 0 written 466
+Dec 18 05:29:56 10.71.60.0 a843606 [10.71.60.0|put|0|466|0|0|0|2f7061727469616c732f6e61762e706870|]
+Dec 18 05:30:17 10.71.60.0 a1472313 Connection from 10.71.60.0 port 64180 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:30:18 10.71.60.0 a1472313 Accepted password for a1472313 from 10.71.60.0 port 64180 ssh2
+Dec 18 05:30:18 10.71.60.0 a1472313 Starting session: subsystem 'sftp' for a1472313 from 10.71.60.0 port 64180 id 0
+Dec 18 05:30:18 10.71.60.0 a1472313 session opened for local user a1472313 from [10.71.60.0]
+Dec 18 05:30:37 10.71.60.0 a975203 Connection from 10.71.60.0 port 24404 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:30:37 10.71.60.0 a975203 Accepted password for a975203 from 10.71.60.0 port 24404 ssh2
+Dec 18 05:30:38 10.71.60.0 a975203 Starting session: subsystem 'sftp' for a975203 from 10.71.60.0 port 24404 id 0
+Dec 18 05:30:38 10.71.60.0 a975203 session opened for local user a975203 from [10.71.60.0]
+Dec 18 05:30:56 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 62376
+Dec 18 05:30:56 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:30:56 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 62392
+Dec 18 05:30:56 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:32:53 10.71.60.0 a975203 open "/.htaccess" flags READ mode 0666
+Dec 18 05:32:54 10.71.60.0 a975203 close "/.htaccess" bytes read 522 written 0
+Dec 18 05:32:54 10.71.60.0 a975203 [10.71.60.0|get|1|522|0|0|0|2f2e6874616363657373|]
+Dec 18 05:33:39 10.71.60.0 a2103027 Connection from 10.71.60.0 port 11352 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:33:39 10.71.60.0 a2103027 Accepted password for a2103027 from 10.71.60.0 port 11352 ssh2
+Dec 18 05:34:10 10.71.60.0 a975203 open "/contact.php" flags READ mode 0666
+Dec 18 05:34:10 10.71.60.0 a975203 close "/contact.php" bytes read 2896 written 0
+Dec 18 05:34:10 10.71.60.0 a975203 [10.71.60.0|get|0|2896|0|0|0|2f636f6e746163742e706870|]
+Dec 18 05:34:51 10.71.60.0 a975203 open "/contact.php" flags READ mode 0666
+Dec 18 05:34:51 10.71.60.0 a975203 close "/contact.php" bytes read 2896 written 0
+Dec 18 05:34:51 10.71.60.0 a975203 [10.71.60.0|get|0|2896|0|0|0|2f636f6e746163742e706870|]
+Dec 18 05:36:22 10.71.60.0 a843606 remove name "/services.php"
+Dec 18 05:36:22 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f73657276696365732e706870|]
+Dec 18 05:36:22 10.71.60.0 a843606 remove name "/README.txt"
+Dec 18 05:36:22 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f524541444d452e747874|]
+Dec 18 05:36:23 10.71.60.0 a843606 remove name "/prices.php"
+Dec 18 05:36:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7072696365732e706870|]
+Dec 18 05:36:23 10.71.60.0 a843606 remove name "/index.php"
+Dec 18 05:36:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f696e6465782e706870|]
+Dec 18 05:36:23 10.71.60.0 a843606 remove name "/contact.php"
+Dec 18 05:36:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e746163742e706870|]
+Dec 18 05:36:23 10.71.60.0 a843606 remove name "/.htaccess"
+Dec 18 05:36:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|2|2f2e6874616363657373|]
+Dec 18 05:36:23 10.71.60.0 a843606 sent status No such file
+Dec 18 05:36:23 10.71.60.0 a843606 remove name "/api/contact.php"
+Dec 18 05:36:23 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6170692f636f6e746163742e706870|]
+Dec 18 05:36:24 10.71.60.0 a843606 rmdir name "/api"
+Dec 18 05:36:24 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f617069|]
+Dec 18 05:36:25 10.71.60.0 a843606 remove name "/assets/css/style.css"
+Dec 18 05:36:25 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:36:25 10.71.60.0 a843606 rmdir name "/assets/css"
+Dec 18 05:36:25 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f6173736574732f637373|]
+Dec 18 05:36:26 10.71.60.0 a843606 remove name "/assets/js/site.js"
+Dec 18 05:36:26 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:36:26 10.71.60.0 a843606 rmdir name "/assets/js"
+Dec 18 05:36:26 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f6173736574732f6a73|]
+Dec 18 05:36:26 10.71.60.0 a843606 rmdir name "/assets"
+Dec 18 05:36:26 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f617373657473|]
+Dec 18 05:36:27 10.71.60.0 a843606 remove name "/img/ongoingteam-o.svg"
+Dec 18 05:36:27 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:36:27 10.71.60.0 a843606 remove name "/img/ongoingteam-hero.png"
+Dec 18 05:36:27 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f696d672f6f6e676f696e677465616d2d6865726f2e706e67|]
+Dec 18 05:36:28 10.71.60.0 a843606 rmdir name "/img"
+Dec 18 05:36:28 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f696d67|]
+Dec 18 05:36:28 10.71.60.0 a843606 remove name "/partials/footer.php"
+Dec 18 05:36:28 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7061727469616c732f666f6f7465722e706870|]
+Dec 18 05:36:29 10.71.60.0 a843606 remove name "/partials/head.php"
+Dec 18 05:36:29 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7061727469616c732f686561642e706870|]
+Dec 18 05:36:29 10.71.60.0 a843606 remove name "/partials/helpers.php"
+Dec 18 05:36:29 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7061727469616c732f68656c706572732e706870|]
+Dec 18 05:36:29 10.71.60.0 a843606 remove name "/partials/nav.php"
+Dec 18 05:36:29 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7061727469616c732f6e61762e706870|]
+Dec 18 05:36:29 10.71.60.0 a843606 rmdir name "/partials"
+Dec 18 05:36:29 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7061727469616c73|]
+Dec 18 05:36:49 10.71.60.0 a1472313 session closed for local user a1472313 from [10.71.60.0]
+Dec 18 05:36:50 10.71.60.0 a1472313 Received disconnect from 10.71.60.0 port 64180:11: Connection terminated by the client.
+Dec 18 05:38:40 10.71.60.0 a2103027 Connection closed by 10.71.60.0 port 11352
+Dec 18 05:39:51 10.71.60.0 a975203 session closed for local user a975203 from [10.71.60.0]
+Dec 18 05:39:51 10.71.60.0 a975203 Connection closed by 10.71.60.0 port 24404
+Dec 18 05:44:05 10.71.60.0 a843606 Connection from 10.71.60.0 port 31142 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:44:05 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 31142 ssh2
+Dec 18 05:44:05 10.71.60.0 a843606 Connection from 10.71.60.0 port 31132 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:44:05 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 31132 ssh2
+Dec 18 05:44:06 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 31142 id 0
+Dec 18 05:44:06 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 31132 id 0
+Dec 18 05:44:06 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:44:06 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:44:06 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:06 10.71.60.0 a843606 open "/README.md" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:06 10.71.60.0 a843606 mkdir name "/config" mode 0777
+Dec 18 05:44:06 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f636f6e666967|]
+Dec 18 05:44:06 10.71.60.0 a843606 close "/README.md" bytes read 0 written 189
+Dec 18 05:44:06 10.71.60.0 a843606 [10.71.60.0|put|0|189|0|0|0|2f524541444d452e6d64|]
+Dec 18 05:44:07 10.71.60.0 a843606 open "/config/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:07 10.71.60.0 a843606 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:07 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 0 written 76
+Dec 18 05:44:07 10.71.60.0 a843606 [10.71.60.0|put|0|76|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:44:07 10.71.60.0 a843606 close "/config/db.php" bytes read 0 written 147
+Dec 18 05:44:07 10.71.60.0 a843606 [10.71.60.0|put|0|147|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:44:07 10.71.60.0 a843606 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:07 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:07 10.71.60.0 a843606 close "/config/mail.php" bytes read 0 written 94
+Dec 18 05:44:07 10.71.60.0 a843606 [10.71.60.0|put|0|94|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:44:08 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:08 10.71.60.0 a843606 mkdir name "/db" mode 0777
+Dec 18 05:44:08 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f6462|]
+Dec 18 05:44:08 10.71.60.0 a843606 mkdir name "/public" mode 0777
+Dec 18 05:44:08 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c6963|]
+Dec 18 05:44:08 10.71.60.0 a843606 open "/db/schema.sql" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:09 10.71.60.0 a843606 close "/db/schema.sql" bytes read 0 written 386
+Dec 18 05:44:09 10.71.60.0 a843606 [10.71.60.0|put|1|386|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:44:09 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:09 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 566
+Dec 18 05:44:09 10.71.60.0 a843606 [10.71.60.0|put|0|566|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:44:09 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:09 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:09 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 1377
+Dec 18 05:44:09 10.71.60.0 a843606 [10.71.60.0|put|0|1377|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:44:09 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 274
+Dec 18 05:44:09 10.71.60.0 a843606 [10.71.60.0|put|0|274|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:44:09 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:09 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:09 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 234
+Dec 18 05:44:09 10.71.60.0 a843606 [10.71.60.0|put|0|234|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:44:09 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:10 10.71.60.0 a843606 mkdir name "/public/api" mode 0777
+Dec 18 05:44:10 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f617069|]
+Dec 18 05:44:10 10.71.60.0 a843606 mkdir name "/public/img" mode 0777
+Dec 18 05:44:10 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f696d67|]
+Dec 18 05:44:10 10.71.60.0 a843606 open "/public/api/submit_contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:10 10.71.60.0 a843606 close "/public/api/submit_contact.php" bytes read 0 written 42
+Dec 18 05:44:10 10.71.60.0 a843606 [10.71.60.0|put|0|42|0|0|0|2f7075626c69632f6170692f7375626d69745f636f6e746163742e706870|]
+Dec 18 05:44:10 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:10 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:11 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:11 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 0 written 199
+Dec 18 05:44:11 10.71.60.0 a843606 [10.71.60.0|put|1|199|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:44:11 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:11 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:11 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:11 10.71.60.0 a843606 sent status No such file
+Dec 18 05:44:11 10.71.60.0 a843606 mkdir name "/public/assets" mode 0777
+Dec 18 05:44:11 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f617373657473|]
+Dec 18 05:44:11 10.71.60.0 a843606 mkdir name "/public/assets" mode 0777
+Dec 18 05:44:11 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|17|2f7075626c69632f617373657473|]
+Dec 18 05:44:11 10.71.60.0 a843606 sent status Failure
+Dec 18 05:44:11 10.71.60.0 a843606 mkdir name "/public/assets/css" mode 0777
+Dec 18 05:44:11 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f6173736574732f637373|]
+Dec 18 05:44:11 10.71.60.0 a843606 mkdir name "/public/assets/js" mode 0777
+Dec 18 05:44:11 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f6173736574732f6a73|]
+Dec 18 05:44:12 10.71.60.0 a843606 open "/public/assets/css/style.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:12 10.71.60.0 a843606 open "/public/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:44:12 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 0 written 26
+Dec 18 05:44:12 10.71.60.0 a843606 [10.71.60.0|put|0|26|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:44:12 10.71.60.0 a843606 close "/public/assets/css/style.css" bytes read 0 written 326
+Dec 18 05:44:12 10.71.60.0 a843606 [10.71.60.0|put|0|326|0|0|0|2f7075626c69632f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:44:44 10.71.60.0 a2189365 Connection from 10.71.60.0 port 62288 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:44:45 10.71.60.0 a2189365 Accepted password for a2189365 from 10.71.60.0 port 62288 ssh2
+Dec 18 05:44:45 10.71.60.0 a2189365 Starting session: subsystem 'sftp' for a2189365 from 10.71.60.0 port 62288 id 0
+Dec 18 05:44:45 10.71.60.0 a2189365 session opened for local user a2189365 from [10.71.60.0]
+Dec 18 05:45:03 10.71.60.0 a1331286 Connection from 10.71.60.0 port 28830 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:45:03 10.71.60.0 a1331286 Accepted password for a1331286 from 10.71.60.0 port 28830 ssh2
+Dec 18 05:45:04 10.71.60.0 a1331286 Starting session: subsystem 'sftp' for a1331286 from 10.71.60.0 port 28830 id 0
+Dec 18 05:45:04 10.71.60.0 a1331286 session opened for local user a1331286 from [10.71.60.0]
+Dec 18 05:45:12 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 31132
+Dec 18 05:45:12 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:45:12 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 31142
+Dec 18 05:45:12 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:45:19 10.71.60.0 a1331286 open "/config/contact_config.php" flags READ mode 0666
+Dec 18 05:45:20 10.71.60.0 a1331286 close "/config/contact_config.php" bytes read 76 written 0
+Dec 18 05:45:20 10.71.60.0 a1331286 [10.71.60.0|get|1|76|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:45:29 10.71.60.0 a1331286 open "/config/db.php" flags READ mode 0666
+Dec 18 05:45:29 10.71.60.0 a1331286 close "/config/db.php" bytes read 147 written 0
+Dec 18 05:45:29 10.71.60.0 a1331286 [10.71.60.0|get|0|147|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:45:40 10.71.60.0 a1331286 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:45:40 10.71.60.0 a1331286 close "/config/db.php" bytes read 0 written 151
+Dec 18 05:45:40 10.71.60.0 a1331286 [10.71.60.0|put|0|151|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:45:48 10.71.60.0 a1331286 open "/config/mail.php" flags READ mode 0666
+Dec 18 05:45:48 10.71.60.0 a1331286 close "/config/mail.php" bytes read 94 written 0
+Dec 18 05:45:48 10.71.60.0 a1331286 [10.71.60.0|get|0|94|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:47:06 10.71.60.0 a1331286 open "/public/index.php" flags READ mode 0666
+Dec 18 05:47:07 10.71.60.0 a1331286 close "/public/index.php" bytes read 1377 written 0
+Dec 18 05:47:07 10.71.60.0 a1331286 [10.71.60.0|get|1|1377|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:48:42 10.71.60.0 a843606 Connection from 10.71.60.0 port 11026 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:48:42 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 11026 ssh2
+Dec 18 05:48:43 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 11026 id 0
+Dec 18 05:48:43 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:48:43 10.71.60.0 a843606 open "/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:48:43 10.71.60.0 a843606 close "/contact_config.php" bytes read 0 written 357
+Dec 18 05:48:43 10.71.60.0 a843606 [10.71.60.0|put|0|357|0|0|0|2f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:48:50 10.71.60.0 a843606 remove name "/contact_config.php"
+Dec 18 05:48:50 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:49:43 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 11026
+Dec 18 05:49:43 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:49:47 10.71.60.0 a2189365 session closed for local user a2189365 from [10.71.60.0]
+Dec 18 05:49:47 10.71.60.0 a2189365 Received disconnect from 10.71.60.0 port 62288:11: Connection terminated by the client.
+Dec 18 05:51:02 10.71.60.0 a843606 remove name "/README.md"
+Dec 18 05:51:02 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f524541444d452e6d64|]
+Dec 18 05:51:03 10.71.60.0 a843606 remove name "/config/contact_config.php"
+Dec 18 05:51:03 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:51:03 10.71.60.0 a843606 remove name "/config/db.php"
+Dec 18 05:51:03 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:51:03 10.71.60.0 a843606 remove name "/config/mail.php"
+Dec 18 05:51:03 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:51:03 10.71.60.0 a843606 rmdir name "/config"
+Dec 18 05:51:03 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f636f6e666967|]
+Dec 18 05:51:04 10.71.60.0 a843606 remove name "/db/schema.sql"
+Dec 18 05:51:04 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:51:04 10.71.60.0 a843606 rmdir name "/db"
+Dec 18 05:51:04 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f6462|]
+Dec 18 05:51:05 10.71.60.0 a843606 remove name "/public/contact.php"
+Dec 18 05:51:05 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:51:05 10.71.60.0 a843606 remove name "/public/index.php"
+Dec 18 05:51:05 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:51:06 10.71.60.0 a843606 remove name "/public/prices.php"
+Dec 18 05:51:06 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:51:06 10.71.60.0 a843606 remove name "/public/services.php"
+Dec 18 05:51:06 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:51:06 10.71.60.0 a843606 remove name "/public/api/submit_contact.php"
+Dec 18 05:51:06 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6170692f7375626d69745f636f6e746163742e706870|]
+Dec 18 05:51:07 10.71.60.0 a843606 rmdir name "/public/api"
+Dec 18 05:51:07 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f617069|]
+Dec 18 05:51:07 10.71.60.0 a843606 remove name "/public/img/ongoingteam-o.svg"
+Dec 18 05:51:07 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:51:08 10.71.60.0 a843606 rmdir name "/public/img"
+Dec 18 05:51:08 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f696d67|]
+Dec 18 05:51:09 10.71.60.0 a843606 remove name "/public/assets/css/style.css"
+Dec 18 05:51:09 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6373732f7374796c652e637373|]
+Dec 18 05:51:09 10.71.60.0 a843606 rmdir name "/public/assets/css"
+Dec 18 05:51:09 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f6173736574732f637373|]
+Dec 18 05:51:10 10.71.60.0 a843606 remove name "/public/assets/js/site.js"
+Dec 18 05:51:10 10.71.60.0 a843606 [10.71.60.0|rm|0|0|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 05:51:10 10.71.60.0 a843606 rmdir name "/public/assets/js"
+Dec 18 05:51:10 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f6173736574732f6a73|]
+Dec 18 05:51:10 10.71.60.0 a843606 rmdir name "/public/assets"
+Dec 18 05:51:10 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f617373657473|]
+Dec 18 05:51:10 10.71.60.0 a843606 rmdir name "/public"
+Dec 18 05:51:10 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c6963|]
+Dec 18 05:51:25 10.71.60.0 a843606 Connection from 10.71.60.0 port 29910 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:51:25 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 29910 ssh2
+Dec 18 05:51:25 10.71.60.0 a843606 Connection from 10.71.60.0 port 29920 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:51:25 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 29920 ssh2
+Dec 18 05:51:26 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 29910 id 0
+Dec 18 05:51:26 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 29920 id 0
+Dec 18 05:51:26 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:51:26 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:51:26 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:26 10.71.60.0 a843606 open "/README_SETUP.md" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:26 10.71.60.0 a843606 mkdir name "/config" mode 0777
+Dec 18 05:51:26 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f636f6e666967|]
+Dec 18 05:51:26 10.71.60.0 a843606 close "/README_SETUP.md" bytes read 0 written 1134
+Dec 18 05:51:26 10.71.60.0 a843606 [10.71.60.0|put|0|1134|0|0|0|2f524541444d455f53455455502e6d64|]
+Dec 18 05:51:27 10.71.60.0 a843606 open "/config/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:27 10.71.60.0 a843606 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:27 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 0 written 1415
+Dec 18 05:51:27 10.71.60.0 a843606 [10.71.60.0|put|0|1415|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 05:51:27 10.71.60.0 a843606 close "/config/db.php" bytes read 0 written 885
+Dec 18 05:51:27 10.71.60.0 a843606 [10.71.60.0|put|0|885|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:51:27 10.71.60.0 a843606 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:27 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:28 10.71.60.0 a843606 close "/config/mail.php" bytes read 0 written 472
+Dec 18 05:51:28 10.71.60.0 a843606 [10.71.60.0|put|1|472|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:51:28 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:28 10.71.60.0 a843606 mkdir name "/db" mode 0777
+Dec 18 05:51:28 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f6462|]
+Dec 18 05:51:28 10.71.60.0 a843606 mkdir name "/lib" mode 0777
+Dec 18 05:51:28 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f6c6962|]
+Dec 18 05:51:28 10.71.60.0 a843606 open "/db/schema.sql" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:29 10.71.60.0 a843606 close "/db/schema.sql" bytes read 0 written 8407
+Dec 18 05:51:29 10.71.60.0 a843606 [10.71.60.0|put|1|8407|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 05:51:29 10.71.60.0 a843606 open "/lib/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:29 10.71.60.0 a843606 close "/lib/availability.php" bytes read 0 written 2620
+Dec 18 05:51:29 10.71.60.0 a843606 [10.71.60.0|put|0|2620|0|0|0|2f6c69622f617661696c6162696c6974792e706870|]
+Dec 18 05:51:29 10.71.60.0 a843606 open "/lib/helpers.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:29 10.71.60.0 a843606 open "/lib/services_repo.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:29 10.71.60.0 a843606 close "/lib/helpers.php" bytes read 0 written 1290
+Dec 18 05:51:29 10.71.60.0 a843606 [10.71.60.0|put|0|1290|0|0|0|2f6c69622f68656c706572732e706870|]
+Dec 18 05:51:29 10.71.60.0 a843606 close "/lib/services_repo.php" bytes read 0 written 700
+Dec 18 05:51:29 10.71.60.0 a843606 [10.71.60.0|put|0|700|0|0|0|2f6c69622f73657276696365735f7265706f2e706870|]
+Dec 18 05:51:29 10.71.60.0 a843606 open "/lib/SmtpMailer.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:29 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:29 10.71.60.0 a843606 close "/lib/SmtpMailer.php" bytes read 0 written 4949
+Dec 18 05:51:29 10.71.60.0 a843606 [10.71.60.0|put|0|4949|0|0|0|2f6c69622f536d74704d61696c65722e706870|]
+Dec 18 05:51:30 10.71.60.0 a843606 mkdir name "/public" mode 0777
+Dec 18 05:51:30 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c6963|]
+Dec 18 05:51:30 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:30 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:30 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 8647
+Dec 18 05:51:30 10.71.60.0 a843606 [10.71.60.0|put|0|8647|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 05:51:30 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 2340
+Dec 18 05:51:30 10.71.60.0 a843606 [10.71.60.0|put|0|2340|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:51:31 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:31 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:31 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 7211
+Dec 18 05:51:31 10.71.60.0 a843606 [10.71.60.0|put|0|7211|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 05:51:31 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 2584
+Dec 18 05:51:31 10.71.60.0 a843606 [10.71.60.0|put|0|2584|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 05:51:31 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:31 10.71.60.0 a843606 mkdir name "/public/api" mode 0777
+Dec 18 05:51:31 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f617069|]
+Dec 18 05:51:32 10.71.60.0 a843606 open "/public/api/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:32 10.71.60.0 a843606 open "/public/api/book.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:32 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 0 written 1394
+Dec 18 05:51:32 10.71.60.0 a843606 [10.71.60.0|put|0|1394|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 05:51:32 10.71.60.0 a843606 close "/public/api/book.php" bytes read 0 written 9813
+Dec 18 05:51:32 10.71.60.0 a843606 [10.71.60.0|put|0|9813|0|0|0|2f7075626c69632f6170692f626f6f6b2e706870|]
+Dec 18 05:51:32 10.71.60.0 a843606 open "/public/api/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:32 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:32 10.71.60.0 a843606 close "/public/api/services.php" bytes read 0 written 488
+Dec 18 05:51:32 10.71.60.0 a843606 [10.71.60.0|put|0|488|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 05:51:32 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:33 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:33 10.71.60.0 a843606 mkdir name "/public/img" mode 0777
+Dec 18 05:51:33 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f696d67|]
+Dec 18 05:51:33 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:33 10.71.60.0 a843606 mkdir name "/public/assets" mode 0777
+Dec 18 05:51:33 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f617373657473|]
+Dec 18 05:51:33 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:33 10.71.60.0 a843606 mkdir name "/public/assets/css" mode 0777
+Dec 18 05:51:33 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f6173736574732f637373|]
+Dec 18 05:51:33 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 0 written 406
+Dec 18 05:51:33 10.71.60.0 a843606 [10.71.60.0|put|0|406|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 05:51:34 10.71.60.0 a843606 sent status No such file
+Dec 18 05:51:34 10.71.60.0 a843606 mkdir name "/public/assets/js" mode 0777
+Dec 18 05:51:34 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f6173736574732f6a73|]
+Dec 18 05:51:34 10.71.60.0 a843606 open "/public/assets/css/lux.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:34 10.71.60.0 a843606 close "/public/assets/css/lux.css" bytes read 0 written 3365
+Dec 18 05:51:34 10.71.60.0 a843606 [10.71.60.0|put|0|3365|0|0|0|2f7075626c69632f6173736574732f6373732f6c75782e637373|]
+Dec 18 05:51:35 10.71.60.0 a843606 open "/public/assets/js/contact.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:51:35 10.71.60.0 a843606 close "/public/assets/js/contact.js" bytes read 0 written 5349
+Dec 18 05:51:35 10.71.60.0 a843606 [10.71.60.0|put|0|5349|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 05:52:04 10.71.60.0 a1331286 open "/config/db.php" flags READ mode 0666
+Dec 18 05:52:05 10.71.60.0 a1331286 close "/config/db.php" bytes read 885 written 0
+Dec 18 05:52:05 10.71.60.0 a1331286 [10.71.60.0|get|1|885|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:52:17 10.71.60.0 a1331286 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:52:18 10.71.60.0 a1331286 close "/config/db.php" bytes read 0 written 869
+Dec 18 05:52:18 10.71.60.0 a1331286 [10.71.60.0|put|1|869|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:52:26 10.71.60.0 a1331286 open "/config/mail.php" flags READ mode 0666
+Dec 18 05:52:26 10.71.60.0 a1331286 close "/config/mail.php" bytes read 472 written 0
+Dec 18 05:52:26 10.71.60.0 a1331286 [10.71.60.0|get|0|472|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:52:33 10.71.60.0 a1331286 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:52:33 10.71.60.0 a1331286 close "/config/mail.php" bytes read 0 written 454
+Dec 18 05:52:33 10.71.60.0 a1331286 [10.71.60.0|put|0|454|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 05:52:34 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 29910
+Dec 18 05:52:34 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:52:35 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 29920
+Dec 18 05:52:35 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 05:54:49 10.71.60.0 a1331286 open "/config/db.php" flags READ mode 0666
+Dec 18 05:54:50 10.71.60.0 a1331286 close "/config/db.php" bytes read 869 written 0
+Dec 18 05:54:50 10.71.60.0 a1331286 [10.71.60.0|get|1|869|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 05:57:15 10.71.60.0 a843606 Connection from 10.71.60.0 port 46434 on 66.175.237.39 port 22 rdomain ""
+Dec 18 05:57:16 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 46434 ssh2
+Dec 18 05:57:16 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 46434 id 0
+Dec 18 05:57:16 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 05:57:17 10.71.60.0 a843606 open "/public/nginx.conf" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 05:57:17 10.71.60.0 a843606 close "/public/nginx.conf" bytes read 0 written 516
+Dec 18 05:57:17 10.71.60.0 a843606 [10.71.60.0|put|0|516|0|0|0|2f7075626c69632f6e67696e782e636f6e66|]
+Dec 18 05:58:07 10.71.60.0 a1331286 open "/public/index.php" flags READ mode 0666
+Dec 18 05:58:08 10.71.60.0 a1331286 close "/public/index.php" bytes read 2340 written 0
+Dec 18 05:58:08 10.71.60.0 a1331286 [10.71.60.0|get|1|2340|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 05:58:17 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 46434
+Dec 18 05:58:17 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:00:58 10.71.60.0 a843606 Connection from 10.71.60.0 port 34044 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:00:59 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 34044 ssh2
+Dec 18 06:00:58 10.71.60.0 a843606 Connection from 10.71.60.0 port 34056 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:00:59 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 34056 ssh2
+Dec 18 06:00:59 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 34044 id 0
+Dec 18 06:00:59 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 34056 id 0
+Dec 18 06:00:59 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:00:59 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:01:02 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:02 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:03 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 2146
+Dec 18 06:01:03 10.71.60.0 a843606 [10.71.60.0|put|0|2146|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:01:03 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 8443
+Dec 18 06:01:03 10.71.60.0 a843606 [10.71.60.0|put|0|8443|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:01:03 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:03 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:03 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 7007
+Dec 18 06:01:03 10.71.60.0 a843606 [10.71.60.0|put|0|7007|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:01:03 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 2380
+Dec 18 06:01:03 10.71.60.0 a843606 [10.71.60.0|put|0|2380|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:01:03 10.71.60.0 a843606 sent status No such file
+Dec 18 06:01:03 10.71.60.0 a843606 mkdir name "/public/partials" mode 0777
+Dec 18 06:01:03 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f7061727469616c73|]
+Dec 18 06:01:04 10.71.60.0 a843606 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:04 10.71.60.0 a843606 open "/public/partials/head.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:04 10.71.60.0 a843606 close "/public/partials/footer_shared.php" bytes read 0 written 171
+Dec 18 06:01:04 10.71.60.0 a843606 [10.71.60.0|put|0|171|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:01:04 10.71.60.0 a843606 close "/public/partials/head.php" bytes read 0 written 511
+Dec 18 06:01:04 10.71.60.0 a843606 [10.71.60.0|put|0|511|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:01:04 10.71.60.0 a843606 open "/public/partials/header.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:04 10.71.60.0 a843606 open "/public/partials/nav.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:01:04 10.71.60.0 a843606 close "/public/partials/header.php" bytes read 0 written 176
+Dec 18 06:01:04 10.71.60.0 a843606 [10.71.60.0|put|0|176|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:01:04 10.71.60.0 a843606 close "/public/partials/nav.php" bytes read 0 written 466
+Dec 18 06:01:04 10.71.60.0 a843606 [10.71.60.0|put|0|466|0|0|0|2f7075626c69632f7061727469616c732f6e61762e706870|]
+Dec 18 06:01:21 10.71.60.0 a1331286 open "/public/index.php" flags READ mode 0666
+Dec 18 06:01:21 10.71.60.0 a1331286 close "/public/index.php" bytes read 2146 written 0
+Dec 18 06:01:21 10.71.60.0 a1331286 [10.71.60.0|get|0|2146|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:01:42 10.71.60.0 a1331286 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:01:43 10.71.60.0 a1331286 close "/public/partials/header.php" bytes read 176 written 0
+Dec 18 06:01:43 10.71.60.0 a1331286 [10.71.60.0|get|1|176|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:01:56 10.71.60.0 a1331286 open "/public/partials/head.php" flags READ mode 0666
+Dec 18 06:01:56 10.71.60.0 a1331286 close "/public/partials/head.php" bytes read 511 written 0
+Dec 18 06:01:56 10.71.60.0 a1331286 [10.71.60.0|get|0|511|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:02:04 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 34044
+Dec 18 06:02:04 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:02:05 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:02:05 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 34056
+Dec 18 06:02:09 10.71.60.0 a1331286 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:02:10 10.71.60.0 a1331286 close "/public/partials/header.php" bytes read 176 written 0
+Dec 18 06:02:10 10.71.60.0 a1331286 [10.71.60.0|get|1|176|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:02:16 10.71.60.0 a1331286 open "/public/partials/nav.php" flags READ mode 0666
+Dec 18 06:02:16 10.71.60.0 a1331286 close "/public/partials/nav.php" bytes read 466 written 0
+Dec 18 06:02:16 10.71.60.0 a1331286 [10.71.60.0|get|0|466|0|0|0|2f7075626c69632f7061727469616c732f6e61762e706870|]
+Dec 18 06:04:05 10.71.60.0 a1331286 open "/public/partials/head.php" flags READ mode 0666
+Dec 18 06:04:06 10.71.60.0 a1331286 close "/public/partials/head.php" bytes read 511 written 0
+Dec 18 06:04:06 10.71.60.0 a1331286 [10.71.60.0|get|1|511|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:09:06 10.71.60.0 a1331286 session closed for local user a1331286 from [10.71.60.0]
+Dec 18 06:09:06 10.71.60.0 a1331286 Connection closed by 10.71.60.0 port 28830
+Dec 18 06:09:48 10.71.60.0 a2466570 Connection from 10.71.60.0 port 23162 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:09:48 10.71.60.0 a2466570 Accepted password for a2466570 from 10.71.60.0 port 23162 ssh2
+Dec 18 06:09:49 10.71.60.0 a2466570 Starting session: subsystem 'sftp' for a2466570 from 10.71.60.0 port 23162 id 0
+Dec 18 06:09:49 10.71.60.0 a2466570 session opened for local user a2466570 from [10.71.60.0]
+Dec 18 06:09:55 10.71.60.0 a2466570 open "/public/partials/head.php" flags READ mode 0666
+Dec 18 06:09:55 10.71.60.0 a2466570 close "/public/partials/head.php" bytes read 511 written 0
+Dec 18 06:09:55 10.71.60.0 a2466570 [10.71.60.0|get|0|511|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:10:04 10.71.60.0 a2466570 open "/public/partials/head.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:10:04 10.71.60.0 a2466570 close "/public/partials/head.php" bytes read 0 written 491
+Dec 18 06:10:04 10.71.60.0 a2466570 [10.71.60.0|put|0|491|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:10:14 10.71.60.0 a2466570 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:10:15 10.71.60.0 a2466570 close "/public/partials/header.php" bytes read 176 written 0
+Dec 18 06:10:15 10.71.60.0 a2466570 [10.71.60.0|get|1|176|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:10:18 10.71.60.0 a2466570 open "/public/partials/header.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:10:18 10.71.60.0 a2466570 close "/public/partials/header.php" bytes read 0 written 589
+Dec 18 06:10:18 10.71.60.0 a2466570 [10.71.60.0|put|0|589|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:10:30 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:10:30 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 171 written 0
+Dec 18 06:10:30 10.71.60.0 a2466570 [10.71.60.0|get|0|171|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:10:34 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:10:35 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 0 written 221
+Dec 18 06:10:35 10.71.60.0 a2466570 [10.71.60.0|put|1|221|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:11:52 10.71.60.0 a2466570 open "/public/assets/js/contact.js" flags READ mode 0666
+Dec 18 06:11:52 10.71.60.0 a2466570 close "/public/assets/js/contact.js" bytes read 5349 written 0
+Dec 18 06:11:52 10.71.60.0 a2466570 [10.71.60.0|get|0|5349|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 06:12:09 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:12:09 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 221 written 0
+Dec 18 06:12:09 10.71.60.0 a2466570 [10.71.60.0|get|0|221|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:12:16 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:12:17 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 0 written 224
+Dec 18 06:12:17 10.71.60.0 a2466570 [10.71.60.0|put|1|224|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:12:55 10.71.60.0 a2466570 open "/public/index.php" flags READ mode 0666
+Dec 18 06:12:55 10.71.60.0 a2466570 close "/public/index.php" bytes read 2146 written 0
+Dec 18 06:12:55 10.71.60.0 a2466570 [10.71.60.0|get|0|2146|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:14:02 10.71.60.0 a2466570 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:14:02 10.71.60.0 a2466570 close "/public/index.php" bytes read 0 written 2146
+Dec 18 06:14:02 10.71.60.0 a2466570 [10.71.60.0|put|0|2146|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:14:17 10.71.60.0 a2466570 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:14:17 10.71.60.0 a2466570 close "/public/partials/header.php" bytes read 589 written 0
+Dec 18 06:14:17 10.71.60.0 a2466570 [10.71.60.0|get|0|589|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:14:49 10.71.60.0 a2466570 open "/public/partials/head.php" flags READ mode 0666
+Dec 18 06:14:50 10.71.60.0 a2466570 close "/public/partials/head.php" bytes read 491 written 0
+Dec 18 06:14:50 10.71.60.0 a2466570 [10.71.60.0|get|1|491|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:14:54 10.71.60.0 a2466570 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:14:54 10.71.60.0 a2466570 close "/public/partials/header.php" bytes read 589 written 0
+Dec 18 06:14:54 10.71.60.0 a2466570 [10.71.60.0|get|0|589|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:15:48 10.71.60.0 a2466570 open "/public/index.php" flags READ mode 0666
+Dec 18 06:15:49 10.71.60.0 a2466570 close "/public/index.php" bytes read 2146 written 0
+Dec 18 06:15:49 10.71.60.0 a2466570 [10.71.60.0|get|1|2146|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:16:14 10.71.60.0 a2466570 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:16:14 10.71.60.0 a2466570 close "/public/index.php" bytes read 0 written 1669
+Dec 18 06:16:14 10.71.60.0 a2466570 [10.71.60.0|put|0|1669|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:16:35 10.71.60.0 a2466570 open "/public/prices.php" flags READ mode 0666
+Dec 18 06:16:35 10.71.60.0 a2466570 close "/public/prices.php" bytes read 7007 written 0
+Dec 18 06:16:35 10.71.60.0 a2466570 [10.71.60.0|get|0|7007|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:16:39 10.71.60.0 a2466570 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:16:40 10.71.60.0 a2466570 close "/public/prices.php" bytes read 0 written 6530
+Dec 18 06:16:40 10.71.60.0 a2466570 [10.71.60.0|put|1|6530|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:16:52 10.71.60.0 a2466570 open "/public/contact.php" flags READ mode 0666
+Dec 18 06:16:53 10.71.60.0 a2466570 close "/public/contact.php" bytes read 8443 written 0
+Dec 18 06:16:53 10.71.60.0 a2466570 [10.71.60.0|get|1|8443|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:16:59 10.71.60.0 a2466570 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:16:59 10.71.60.0 a2466570 close "/public/contact.php" bytes read 0 written 7966
+Dec 18 06:16:59 10.71.60.0 a2466570 [10.71.60.0|put|0|7966|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:17:09 10.71.60.0 a2466570 open "/public/services.php" flags READ mode 0666
+Dec 18 06:17:09 10.71.60.0 a2466570 close "/public/services.php" bytes read 2380 written 0
+Dec 18 06:17:09 10.71.60.0 a2466570 [10.71.60.0|get|0|2380|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:17:14 10.71.60.0 a2466570 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:17:15 10.71.60.0 a2466570 close "/public/services.php" bytes read 0 written 1903
+Dec 18 06:17:15 10.71.60.0 a2466570 [10.71.60.0|put|1|1903|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:17:45 10.71.60.0 a2466570 open "/public/contact.php" flags READ mode 0666
+Dec 18 06:17:46 10.71.60.0 a2466570 close "/public/contact.php" bytes read 7966 written 0
+Dec 18 06:17:46 10.71.60.0 a2466570 [10.71.60.0|get|1|7966|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:18:07 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:18:07 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 224 written 0
+Dec 18 06:18:07 10.71.60.0 a2466570 [10.71.60.0|get|0|224|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:18:29 10.71.60.0 a2466570 open "/public/index.php" flags READ mode 0666
+Dec 18 06:18:29 10.71.60.0 a2466570 close "/public/index.php" bytes read 1669 written 0
+Dec 18 06:18:29 10.71.60.0 a2466570 [10.71.60.0|get|0|1669|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:18:46 10.71.60.0 a2466570 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:18:46 10.71.60.0 a2466570 close "/public/index.php" bytes read 0 written 1541
+Dec 18 06:18:46 10.71.60.0 a2466570 [10.71.60.0|put|0|1541|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:18:55 10.71.60.0 a2466570 open "/public/contact.php" flags READ mode 0666
+Dec 18 06:18:55 10.71.60.0 a2466570 close "/public/contact.php" bytes read 7966 written 0
+Dec 18 06:18:55 10.71.60.0 a2466570 [10.71.60.0|get|0|7966|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:19:06 10.71.60.0 a2466570 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:19:06 10.71.60.0 a2466570 close "/public/contact.php" bytes read 0 written 7837
+Dec 18 06:19:06 10.71.60.0 a2466570 [10.71.60.0|put|0|7837|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:19:16 10.71.60.0 a2466570 open "/public/prices.php" flags READ mode 0666
+Dec 18 06:19:17 10.71.60.0 a2466570 close "/public/prices.php" bytes read 6530 written 0
+Dec 18 06:19:17 10.71.60.0 a2466570 [10.71.60.0|get|1|6530|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:19:27 10.71.60.0 a2466570 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:19:27 10.71.60.0 a2466570 close "/public/prices.php" bytes read 0 written 6402
+Dec 18 06:19:27 10.71.60.0 a2466570 [10.71.60.0|put|0|6402|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:19:35 10.71.60.0 a2466570 open "/public/services.php" flags READ mode 0666
+Dec 18 06:19:35 10.71.60.0 a2466570 close "/public/services.php" bytes read 1903 written 0
+Dec 18 06:19:35 10.71.60.0 a2466570 [10.71.60.0|get|0|1903|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:19:44 10.71.60.0 a2466570 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:19:44 10.71.60.0 a2466570 close "/public/services.php" bytes read 0 written 1775
+Dec 18 06:19:44 10.71.60.0 a2466570 [10.71.60.0|put|0|1775|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:20:25 10.71.60.0 a2466570 open "/public/services.php" flags READ mode 0666
+Dec 18 06:20:26 10.71.60.0 a2466570 close "/public/services.php" bytes read 1775 written 0
+Dec 18 06:20:26 10.71.60.0 a2466570 [10.71.60.0|get|1|1775|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:20:53 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:20:53 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 224 written 0
+Dec 18 06:20:53 10.71.60.0 a2466570 [10.71.60.0|get|0|224|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:20:58 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:20:58 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 0 written 274
+Dec 18 06:20:58 10.71.60.0 a2466570 [10.71.60.0|put|0|274|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:22:17 10.71.60.0 a843606 Connection from 10.71.60.0 port 56142 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:22:18 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 56142 ssh2
+Dec 18 06:22:18 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 56142 id 0
+Dec 18 06:22:18 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:22:19 10.71.60.0 a843606 open "/public/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:22:19 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 0 written 2482
+Dec 18 06:22:19 10.71.60.0 a843606 [10.71.60.0|put|0|2482|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 06:23:19 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 56142
+Dec 18 06:23:19 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:25:44 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:25:44 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 274 written 0
+Dec 18 06:25:44 10.71.60.0 a2466570 [10.71.60.0|get|0|274|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:25:49 10.71.60.0 a2466570 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:25:49 10.71.60.0 a2466570 close "/public/partials/footer_shared.php" bytes read 0 written 225
+Dec 18 06:25:49 10.71.60.0 a2466570 [10.71.60.0|put|0|225|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:26:44 10.71.60.0 a843606 mkdir name "/public/test" mode 0777
+Dec 18 06:26:44 10.71.60.0 a843606 [10.71.60.0|mkdir|0|0|511|0|0|2f7075626c69632f74657374|]
+Dec 18 06:26:49 10.71.60.0 a843606 rmdir name "/public/test"
+Dec 18 06:26:49 10.71.60.0 a843606 [10.71.60.0|rmdir|0|0|0|0|0|2f7075626c69632f74657374|]
+Dec 18 06:27:26 10.71.60.0 a843606 Connection from 10.71.60.0 port 63122 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:27:26 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 63122 ssh2
+Dec 18 06:27:26 10.71.60.0 a843606 Connection from 10.71.60.0 port 63130 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:27:26 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 63130 ssh2
+Dec 18 06:27:27 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 63122 id 0
+Dec 18 06:27:27 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 63130 id 0
+Dec 18 06:27:27 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:27:27 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:27:27 10.71.60.0 a843606 open "/public/index.php" flags READ mode 0666
+Dec 18 06:27:27 10.71.60.0 a843606 open "/public/contact.php" flags READ mode 0666
+Dec 18 06:27:28 10.71.60.0 a843606 close "/public/index.php" bytes read 1541 written 0
+Dec 18 06:27:28 10.71.60.0 a843606 [10.71.60.0|get|1|1541|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:27:28 10.71.60.0 a843606 close "/public/contact.php" bytes read 7837 written 0
+Dec 18 06:27:28 10.71.60.0 a843606 [10.71.60.0|get|1|7837|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:27:28 10.71.60.0 a843606 open "/public/nginx.conf" flags READ mode 0666
+Dec 18 06:27:28 10.71.60.0 a843606 open "/public/prices.php" flags READ mode 0666
+Dec 18 06:27:28 10.71.60.0 a843606 close "/public/nginx.conf" bytes read 516 written 0
+Dec 18 06:27:28 10.71.60.0 a843606 [10.71.60.0|get|0|516|0|0|0|2f7075626c69632f6e67696e782e636f6e66|]
+Dec 18 06:27:28 10.71.60.0 a843606 close "/public/prices.php" bytes read 6402 written 0
+Dec 18 06:27:28 10.71.60.0 a843606 [10.71.60.0|get|0|6402|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:27:28 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 63130
+Dec 18 06:27:28 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:27:28 10.71.60.0 a843606 open "/public/services.php" flags READ mode 0666
+Dec 18 06:27:28 10.71.60.0 a843606 close "/public/services.php" bytes read 1775 written 0
+Dec 18 06:27:28 10.71.60.0 a843606 [10.71.60.0|get|0|1775|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:27:28 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 63122
+Dec 18 06:27:28 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:27:28 10.71.60.0 a843606 Connection from 10.71.60.0 port 63142 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:27:29 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 63142 ssh2
+Dec 18 06:27:29 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 63142 id 0
+Dec 18 06:27:29 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:27:29 10.71.60.0 a843606 Connection from 10.71.60.0 port 63154 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:27:29 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 63154 ssh2
+Dec 18 06:27:29 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 63154 id 0
+Dec 18 06:27:29 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:27:30 10.71.60.0 a843606 open "/public/api/services.php" flags READ mode 0666
+Dec 18 06:27:30 10.71.60.0 a843606 close "/public/api/services.php" bytes read 488 written 0
+Dec 18 06:27:30 10.71.60.0 a843606 [10.71.60.0|get|1|488|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 06:27:30 10.71.60.0 a843606 open "/public/api/availability.php" flags READ mode 0666
+Dec 18 06:27:30 10.71.60.0 a843606 open "/public/api/book.php" flags READ mode 0666
+Dec 18 06:27:30 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 1394 written 0
+Dec 18 06:27:30 10.71.60.0 a843606 [10.71.60.0|get|0|1394|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 06:27:30 10.71.60.0 a843606 close "/public/api/book.php" bytes read 9813 written 0
+Dec 18 06:27:30 10.71.60.0 a843606 [10.71.60.0|get|0|9813|0|0|0|2f7075626c69632f6170692f626f6f6b2e706870|]
+Dec 18 06:27:31 10.71.60.0 a843606 open "/public/assets/css/lux.css" flags READ mode 0666
+Dec 18 06:27:31 10.71.60.0 a843606 open "/public/assets/js/site.js" flags READ mode 0666
+Dec 18 06:27:31 10.71.60.0 a843606 close "/public/assets/css/lux.css" bytes read 3365 written 0
+Dec 18 06:27:31 10.71.60.0 a843606 [10.71.60.0|get|0|3365|0|0|0|2f7075626c69632f6173736574732f6373732f6c75782e637373|]
+Dec 18 06:27:31 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 2482 written 0
+Dec 18 06:27:31 10.71.60.0 a843606 [10.71.60.0|get|0|2482|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 06:27:31 10.71.60.0 a843606 open "/public/assets/js/contact.js" flags READ mode 0666
+Dec 18 06:27:31 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags READ mode 0666
+Dec 18 06:27:31 10.71.60.0 a843606 close "/public/assets/js/contact.js" bytes read 5349 written 0
+Dec 18 06:27:31 10.71.60.0 a843606 [10.71.60.0|get|0|5349|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 06:27:31 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 406 written 0
+Dec 18 06:27:31 10.71.60.0 a843606 [10.71.60.0|get|0|406|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 06:27:32 10.71.60.0 a843606 open "/public/partials/nav.php" flags READ mode 0666
+Dec 18 06:27:32 10.71.60.0 a843606 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:27:32 10.71.60.0 a843606 close "/public/partials/nav.php" bytes read 466 written 0
+Dec 18 06:27:32 10.71.60.0 a843606 [10.71.60.0|get|0|466|0|0|0|2f7075626c69632f7061727469616c732f6e61762e706870|]
+Dec 18 06:27:32 10.71.60.0 a843606 close "/public/partials/header.php" bytes read 589 written 0
+Dec 18 06:27:32 10.71.60.0 a843606 [10.71.60.0|get|0|589|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:27:32 10.71.60.0 a843606 open "/public/partials/head.php" flags READ mode 0666
+Dec 18 06:27:32 10.71.60.0 a843606 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:27:32 10.71.60.0 a843606 close "/public/partials/head.php" bytes read 491 written 0
+Dec 18 06:27:32 10.71.60.0 a843606 [10.71.60.0|get|0|491|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:27:33 10.71.60.0 a843606 close "/public/partials/footer_shared.php" bytes read 225 written 0
+Dec 18 06:27:33 10.71.60.0 a843606 [10.71.60.0|get|1|225|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:28:33 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 63142
+Dec 18 06:28:33 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:28:33 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:28:33 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 63154
+Dec 18 06:31:01 10.71.60.0 a2466570 session closed for local user a2466570 from [10.71.60.0]
+Dec 18 06:31:01 10.71.60.0 a2466570 Connection closed by 10.71.60.0 port 23162
+Dec 18 06:37:16 10.71.60.0 a843606 Connection from 10.71.60.0 port 21344 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:37:16 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 21344 ssh2
+Dec 18 06:37:16 10.71.60.0 a843606 Connection from 10.71.60.0 port 21330 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:37:16 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 21330 ssh2
+Dec 18 06:37:17 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 21344 id 0
+Dec 18 06:37:17 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 21330 id 0
+Dec 18 06:37:17 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:37:17 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:37:19 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:19 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:19 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 9147
+Dec 18 06:37:19 10.71.60.0 a843606 [10.71.60.0|put|0|9147|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:37:19 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 2143
+Dec 18 06:37:19 10.71.60.0 a843606 [10.71.60.0|put|0|2143|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:37:19 10.71.60.0 a843606 open "/public/nginx.conf" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:19 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:20 10.71.60.0 a843606 close "/public/nginx.conf" bytes read 0 written 516
+Dec 18 06:37:20 10.71.60.0 a843606 [10.71.60.0|put|1|516|0|0|0|2f7075626c69632f6e67696e782e636f6e66|]
+Dec 18 06:37:20 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 6398
+Dec 18 06:37:20 10.71.60.0 a843606 [10.71.60.0|put|1|6398|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:37:20 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:20 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 1767
+Dec 18 06:37:20 10.71.60.0 a843606 [10.71.60.0|put|0|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:37:20 10.71.60.0 a843606 open "/public/api/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:20 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 0 written 1394
+Dec 18 06:37:20 10.71.60.0 a843606 [10.71.60.0|put|0|1394|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 06:37:20 10.71.60.0 a843606 open "/public/api/book.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:20 10.71.60.0 a843606 open "/public/api/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:20 10.71.60.0 a843606 close "/public/api/book.php" bytes read 0 written 9813
+Dec 18 06:37:20 10.71.60.0 a843606 [10.71.60.0|put|0|9813|0|0|0|2f7075626c69632f6170692f626f6f6b2e706870|]
+Dec 18 06:37:20 10.71.60.0 a843606 close "/public/api/services.php" bytes read 0 written 488
+Dec 18 06:37:20 10.71.60.0 a843606 [10.71.60.0|put|0|488|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 06:37:21 10.71.60.0 a843606 open "/public/assets/css/lux.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:21 10.71.60.0 a843606 open "/public/assets/js/contact.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:21 10.71.60.0 a843606 close "/public/assets/css/lux.css" bytes read 0 written 4810
+Dec 18 06:37:21 10.71.60.0 a843606 [10.71.60.0|put|0|4810|0|0|0|2f7075626c69632f6173736574732f6373732f6c75782e637373|]
+Dec 18 06:37:21 10.71.60.0 a843606 close "/public/assets/js/contact.js" bytes read 0 written 5349
+Dec 18 06:37:21 10.71.60.0 a843606 [10.71.60.0|put|0|5349|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 06:37:21 10.71.60.0 a843606 open "/public/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:21 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:21 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 0 written 2482
+Dec 18 06:37:21 10.71.60.0 a843606 [10.71.60.0|put|0|2482|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 06:37:21 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 0 written 406
+Dec 18 06:37:21 10.71.60.0 a843606 [10.71.60.0|put|0|406|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 06:37:22 10.71.60.0 a843606 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:22 10.71.60.0 a843606 close "/public/partials/footer_shared.php" bytes read 0 written 275
+Dec 18 06:37:22 10.71.60.0 a843606 [10.71.60.0|put|0|275|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:37:22 10.71.60.0 a843606 open "/public/partials/head.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:22 10.71.60.0 a843606 open "/public/partials/header.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:22 10.71.60.0 a843606 close "/public/partials/head.php" bytes read 0 written 552
+Dec 18 06:37:22 10.71.60.0 a843606 [10.71.60.0|put|0|552|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:37:22 10.71.60.0 a843606 close "/public/partials/header.php" bytes read 0 written 976
+Dec 18 06:37:22 10.71.60.0 a843606 [10.71.60.0|put|0|976|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:37:22 10.71.60.0 a843606 open "/public/partials/nav.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 06:37:22 10.71.60.0 a843606 close "/public/partials/nav.php" bytes read 0 written 466
+Dec 18 06:37:22 10.71.60.0 a843606 [10.71.60.0|put|0|466|0|0|0|2f7075626c69632f7061727469616c732f6e61762e706870|]
+Dec 18 06:38:22 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 21344
+Dec 18 06:38:22 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:38:22 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:38:22 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 21330
+Dec 18 06:39:06 10.71.60.0 a843606 Connection from 10.71.60.0 port 32676 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:39:06 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 32676 ssh2
+Dec 18 06:39:06 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 32676 id 0
+Dec 18 06:39:06 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:39:06 10.71.60.0 a843606 Connection from 10.71.60.0 port 45530 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:39:07 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 45530 ssh2
+Dec 18 06:39:07 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 45530 id 0
+Dec 18 06:39:07 10.71.60.0 a843606 open "/README_SETUP.md" flags READ mode 0666
+Dec 18 06:39:07 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:39:07 10.71.60.0 a843606 close "/README_SETUP.md" bytes read 1134 written 0
+Dec 18 06:39:07 10.71.60.0 a843606 [10.71.60.0|get|0|1134|0|0|0|2f524541444d455f53455455502e6d64|]
+Dec 18 06:39:07 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:39:07 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 32676
+Dec 18 06:39:07 10.71.60.0 a843606 open "/config/mail.php" flags READ mode 0666
+Dec 18 06:39:08 10.71.60.0 a843606 close "/config/mail.php" bytes read 454 written 0
+Dec 18 06:39:08 10.71.60.0 a843606 [10.71.60.0|get|1|454|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 06:39:07 10.71.60.0 a843606 Connection from 10.71.60.0 port 45532 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:39:08 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 45532 ssh2
+Dec 18 06:39:08 10.71.60.0 a843606 open "/config/contact_config.php" flags READ mode 0666
+Dec 18 06:39:08 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 45532 id 0
+Dec 18 06:39:08 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 1415 written 0
+Dec 18 06:39:08 10.71.60.0 a843606 [10.71.60.0|get|0|1415|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 06:39:08 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:39:08 10.71.60.0 a843606 sent status No such file
+Dec 18 06:39:09 10.71.60.0 a843606 open "/db/schema.sql" flags READ mode 0666
+Dec 18 06:39:09 10.71.60.0 a843606 open "/config/db.php" flags READ mode 0666
+Dec 18 06:39:09 10.71.60.0 a843606 close "/db/schema.sql" bytes read 8407 written 0
+Dec 18 06:39:09 10.71.60.0 a843606 [10.71.60.0|get|0|8407|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 06:39:09 10.71.60.0 a843606 close "/config/db.php" bytes read 869 written 0
+Dec 18 06:39:09 10.71.60.0 a843606 [10.71.60.0|get|0|869|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 06:39:09 10.71.60.0 a843606 open "/lib/SmtpMailer.php" flags READ mode 0666
+Dec 18 06:39:09 10.71.60.0 a843606 open "/lib/services_repo.php" flags READ mode 0666
+Dec 18 06:39:09 10.71.60.0 a843606 close "/lib/SmtpMailer.php" bytes read 4949 written 0
+Dec 18 06:39:09 10.71.60.0 a843606 [10.71.60.0|get|0|4949|0|0|0|2f6c69622f536d74704d61696c65722e706870|]
+Dec 18 06:39:10 10.71.60.0 a843606 close "/lib/services_repo.php" bytes read 700 written 0
+Dec 18 06:39:10 10.71.60.0 a843606 [10.71.60.0|get|1|700|0|0|0|2f6c69622f73657276696365735f7265706f2e706870|]
+Dec 18 06:39:10 10.71.60.0 a843606 open "/lib/helpers.php" flags READ mode 0666
+Dec 18 06:39:10 10.71.60.0 a843606 open "/lib/availability.php" flags READ mode 0666
+Dec 18 06:39:10 10.71.60.0 a843606 close "/lib/helpers.php" bytes read 1290 written 0
+Dec 18 06:39:10 10.71.60.0 a843606 [10.71.60.0|get|0|1290|0|0|0|2f6c69622f68656c706572732e706870|]
+Dec 18 06:39:10 10.71.60.0 a843606 close "/lib/availability.php" bytes read 2620 written 0
+Dec 18 06:39:10 10.71.60.0 a843606 [10.71.60.0|get|0|2620|0|0|0|2f6c69622f617661696c6162696c6974792e706870|]
+Dec 18 06:39:10 10.71.60.0 a843606 open "/logs/access.log.51.4" flags READ mode 0666
+Dec 18 06:39:10 10.71.60.0 a843606 open "/logs/sftp.log" flags READ mode 0666
+Dec 18 06:39:11 10.71.60.0 a843606 close "/logs/access.log.51.4" bytes read 154456 written 0
+Dec 18 06:39:11 10.71.60.0 a843606 [10.71.60.0|get|1|154456|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e34|]
+Dec 18 06:39:11 10.71.60.0 a843606 close "/logs/sftp.log" bytes read 133717 written 0
+Dec 18 06:39:11 10.71.60.0 a843606 [10.71.60.0|get|1|133717|0|0|0|2f6c6f67732f736674702e6c6f67|]
+Dec 18 06:39:11 10.71.60.0 a843606 open "/logs/access.log.51.4" flags READ mode 0666
+Dec 18 06:39:11 10.71.60.0 a843606 open "/public/nginx.conf" flags READ mode 0666
+Dec 18 06:39:11 10.71.60.0 a843606 close "/logs/access.log.51.4" bytes read 154456 written 0
+Dec 18 06:39:11 10.71.60.0 a843606 [10.71.60.0|get|0|154456|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e34|]
+Dec 18 06:39:11 10.71.60.0 a843606 close "/public/nginx.conf" bytes read 516 written 0
+Dec 18 06:39:11 10.71.60.0 a843606 [10.71.60.0|get|0|516|0|0|0|2f7075626c69632f6e67696e782e636f6e66|]
+Dec 18 06:39:12 10.71.60.0 a843606 open "/public/prices.php" flags READ mode 0666
+Dec 18 06:39:12 10.71.60.0 a843606 open "/public/services.php" flags READ mode 0666
+Dec 18 06:39:12 10.71.60.0 a843606 close "/public/prices.php" bytes read 6398 written 0
+Dec 18 06:39:12 10.71.60.0 a843606 [10.71.60.0|get|0|6398|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 06:39:12 10.71.60.0 a843606 close "/public/services.php" bytes read 1767 written 0
+Dec 18 06:39:12 10.71.60.0 a843606 [10.71.60.0|get|0|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 06:39:12 10.71.60.0 a843606 open "/public/index.php" flags READ mode 0666
+Dec 18 06:39:12 10.71.60.0 a843606 open "/public/contact.php" flags READ mode 0666
+Dec 18 06:39:12 10.71.60.0 a843606 close "/public/index.php" bytes read 2143 written 0
+Dec 18 06:39:12 10.71.60.0 a843606 [10.71.60.0|get|0|2143|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 06:39:12 10.71.60.0 a843606 close "/public/contact.php" bytes read 9147 written 0
+Dec 18 06:39:12 10.71.60.0 a843606 [10.71.60.0|get|0|9147|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 06:39:13 10.71.60.0 a843606 open "/public/api/services.php" flags READ mode 0666
+Dec 18 06:39:13 10.71.60.0 a843606 open "/public/api/book.php" flags READ mode 0666
+Dec 18 06:39:13 10.71.60.0 a843606 close "/public/api/services.php" bytes read 488 written 0
+Dec 18 06:39:13 10.71.60.0 a843606 [10.71.60.0|get|0|488|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 06:39:13 10.71.60.0 a843606 close "/public/api/book.php" bytes read 9813 written 0
+Dec 18 06:39:13 10.71.60.0 a843606 [10.71.60.0|get|0|9813|0|0|0|2f7075626c69632f6170692f626f6f6b2e706870|]
+Dec 18 06:39:13 10.71.60.0 a843606 open "/public/api/availability.php" flags READ mode 0666
+Dec 18 06:39:13 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 1394 written 0
+Dec 18 06:39:13 10.71.60.0 a843606 [10.71.60.0|get|0|1394|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 06:39:13 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags READ mode 0666
+Dec 18 06:39:14 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 406 written 0
+Dec 18 06:39:14 10.71.60.0 a843606 [10.71.60.0|get|1|406|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 06:39:14 10.71.60.0 a843606 open "/public/assets/css/lux.css" flags READ mode 0666
+Dec 18 06:39:14 10.71.60.0 a843606 close "/public/assets/css/lux.css" bytes read 4810 written 0
+Dec 18 06:39:14 10.71.60.0 a843606 [10.71.60.0|get|0|4810|0|0|0|2f7075626c69632f6173736574732f6373732f6c75782e637373|]
+Dec 18 06:39:14 10.71.60.0 a843606 open "/public/assets/js/site.js" flags READ mode 0666
+Dec 18 06:39:14 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 2482 written 0
+Dec 18 06:39:14 10.71.60.0 a843606 [10.71.60.0|get|0|2482|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 06:39:14 10.71.60.0 a843606 open "/public/assets/js/contact.js" flags READ mode 0666
+Dec 18 06:39:15 10.71.60.0 a843606 close "/public/assets/js/contact.js" bytes read 5349 written 0
+Dec 18 06:39:15 10.71.60.0 a843606 [10.71.60.0|get|1|5349|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 06:39:15 10.71.60.0 a843606 open "/public/partials/nav.php" flags READ mode 0666
+Dec 18 06:39:15 10.71.60.0 a843606 close "/public/partials/nav.php" bytes read 466 written 0
+Dec 18 06:39:15 10.71.60.0 a843606 [10.71.60.0|get|0|466|0|0|0|2f7075626c69632f7061727469616c732f6e61762e706870|]
+Dec 18 06:39:15 10.71.60.0 a843606 open "/public/partials/header.php" flags READ mode 0666
+Dec 18 06:39:15 10.71.60.0 a843606 open "/public/partials/head.php" flags READ mode 0666
+Dec 18 06:39:15 10.71.60.0 a843606 close "/public/partials/header.php" bytes read 976 written 0
+Dec 18 06:39:15 10.71.60.0 a843606 [10.71.60.0|get|0|976|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 06:39:15 10.71.60.0 a843606 close "/public/partials/head.php" bytes read 552 written 0
+Dec 18 06:39:15 10.71.60.0 a843606 [10.71.60.0|get|0|552|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 06:39:15 10.71.60.0 a843606 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 06:39:16 10.71.60.0 a843606 close "/public/partials/footer_shared.php" bytes read 275 written 0
+Dec 18 06:39:16 10.71.60.0 a843606 [10.71.60.0|get|1|275|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 06:40:15 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 45530
+Dec 18 06:40:15 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:40:16 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 06:40:16 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 45532
+Dec 18 06:59:59 10.71.60.0 a843606 Connection from 10.71.60.0 port 52386 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:59:59 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 52386 ssh2
+Dec 18 06:59:59 10.71.60.0 a843606 Connection from 10.71.60.0 port 52374 on 66.175.237.39 port 22 rdomain ""
+Dec 18 06:59:59 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 52374 ssh2
+Dec 18 06:59:59 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 52386 id 0
+Dec 18 06:59:59 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 52374 id 0
+Dec 18 06:59:59 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 06:59:59 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 07:00:02 10.71.60.0 a843606 open "/README_SETUP.md" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:02 10.71.60.0 a843606 open "/config/contact_config.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:03 10.71.60.0 a843606 close "/README_SETUP.md" bytes read 0 written 1134
+Dec 18 07:00:03 10.71.60.0 a843606 [10.71.60.0|put|1|1134|0|0|0|2f524541444d455f53455455502e6d64|]
+Dec 18 07:00:03 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 0 written 1415
+Dec 18 07:00:03 10.71.60.0 a843606 [10.71.60.0|put|1|1415|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 07:00:03 10.71.60.0 a843606 open "/config/mail.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:03 10.71.60.0 a843606 close "/config/mail.php" bytes read 0 written 454
+Dec 18 07:00:03 10.71.60.0 a843606 [10.71.60.0|put|0|454|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 07:00:03 10.71.60.0 a843606 open "/config/db.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:03 10.71.60.0 a843606 close "/config/db.php" bytes read 0 written 810
+Dec 18 07:00:03 10.71.60.0 a843606 [10.71.60.0|put|0|810|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 07:00:04 10.71.60.0 a843606 open "/db/schema.sql" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:04 10.71.60.0 a843606 close "/db/schema.sql" bytes read 0 written 8407
+Dec 18 07:00:04 10.71.60.0 a843606 [10.71.60.0|put|0|8407|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 07:00:04 10.71.60.0 a843606 open "/lib/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:04 10.71.60.0 a843606 close "/lib/availability.php" bytes read 0 written 2620
+Dec 18 07:00:04 10.71.60.0 a843606 [10.71.60.0|put|0|2620|0|0|0|2f6c69622f617661696c6162696c6974792e706870|]
+Dec 18 07:00:04 10.71.60.0 a843606 open "/lib/helpers.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:04 10.71.60.0 a843606 open "/lib/services_repo.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:04 10.71.60.0 a843606 close "/lib/services_repo.php" bytes read 0 written 700
+Dec 18 07:00:04 10.71.60.0 a843606 [10.71.60.0|put|0|700|0|0|0|2f6c69622f73657276696365735f7265706f2e706870|]
+Dec 18 07:00:04 10.71.60.0 a843606 close "/lib/helpers.php" bytes read 0 written 1290
+Dec 18 07:00:04 10.71.60.0 a843606 [10.71.60.0|put|0|1290|0|0|0|2f6c69622f68656c706572732e706870|]
+Dec 18 07:00:04 10.71.60.0 a843606 open "/lib/SmtpMailer.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:05 10.71.60.0 a843606 close "/lib/SmtpMailer.php" bytes read 0 written 4949
+Dec 18 07:00:05 10.71.60.0 a843606 [10.71.60.0|put|1|4949|0|0|0|2f6c69622f536d74704d61696c65722e706870|]
+Dec 18 07:00:05 10.71.60.0 a843606 open "/logs/access.log.51.4" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:05 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:05 10.71.60.0 a843606 open "/logs/access.log.51.4" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:05 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:05 10.71.60.0 a843606 open "/logs/access.log.51.4" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:05 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:05 10.71.60.0 a843606 open "/logs/access.log.51.4" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:05 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:06 10.71.60.0 a843606 open "/logs/access.log.51.4" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:06 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:06 10.71.60.0 a843606 open "/logs/access.log.51.4" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:06 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:06 10.71.60.0 a843606 open "/logs/sftp.log" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:06 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:06 10.71.60.0 a843606 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:06 10.71.60.0 a843606 close "/public/contact.php" bytes read 0 written 9143
+Dec 18 07:00:06 10.71.60.0 a843606 [10.71.60.0|put|0|9143|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 07:00:06 10.71.60.0 a843606 open "/logs/sftp.log" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:06 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:06 10.71.60.0 a843606 open "/public/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:06 10.71.60.0 a843606 close "/public/index.php" bytes read 0 written 2143
+Dec 18 07:00:06 10.71.60.0 a843606 [10.71.60.0|put|0|2143|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 07:00:07 10.71.60.0 a843606 open "/public/nginx.conf" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:07 10.71.60.0 a843606 close "/public/nginx.conf" bytes read 0 written 526
+Dec 18 07:00:07 10.71.60.0 a843606 [10.71.60.0|put|0|526|0|0|0|2f7075626c69632f6e67696e782e636f6e66|]
+Dec 18 07:00:07 10.71.60.0 a843606 open "/logs/sftp.log" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:07 10.71.60.0 a843606 sent status Permission denied
+Dec 18 07:00:07 10.71.60.0 a843606 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:07 10.71.60.0 a843606 close "/public/prices.php" bytes read 0 written 6394
+Dec 18 07:00:07 10.71.60.0 a843606 [10.71.60.0|put|0|6394|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 07:00:07 10.71.60.0 a843606 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:07 10.71.60.0 a843606 close "/public/services.php" bytes read 0 written 1767
+Dec 18 07:00:07 10.71.60.0 a843606 [10.71.60.0|put|0|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:00:07 10.71.60.0 a843606 open "/public/api/availability.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:08 10.71.60.0 a843606 close "/public/api/availability.php" bytes read 0 written 2083
+Dec 18 07:00:08 10.71.60.0 a843606 [10.71.60.0|put|1|2083|0|0|0|2f7075626c69632f6170692f617661696c6162696c6974792e706870|]
+Dec 18 07:00:08 10.71.60.0 a843606 open "/public/api/book.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:08 10.71.60.0 a843606 open "/public/api/index.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:08 10.71.60.0 a843606 close "/public/api/book.php" bytes read 0 written 10052
+Dec 18 07:00:08 10.71.60.0 a843606 [10.71.60.0|put|0|10052|0|0|0|2f7075626c69632f6170692f626f6f6b2e706870|]
+Dec 18 07:00:08 10.71.60.0 a843606 close "/public/api/index.php" bytes read 0 written 530
+Dec 18 07:00:08 10.71.60.0 a843606 [10.71.60.0|put|0|530|0|0|0|2f7075626c69632f6170692f696e6465782e706870|]
+Dec 18 07:00:08 10.71.60.0 a843606 open "/public/api/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:08 10.71.60.0 a843606 close "/public/api/services.php" bytes read 0 written 1482
+Dec 18 07:00:08 10.71.60.0 a843606 [10.71.60.0|put|0|1482|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 07:00:08 10.71.60.0 a843606 open "/public/img/ongoingteam-o.svg" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:08 10.71.60.0 a843606 close "/public/img/ongoingteam-o.svg" bytes read 0 written 406
+Dec 18 07:00:08 10.71.60.0 a843606 [10.71.60.0|put|0|406|0|0|0|2f7075626c69632f696d672f6f6e676f696e677465616d2d6f2e737667|]
+Dec 18 07:00:08 10.71.60.0 a843606 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:09 10.71.60.0 a843606 close "/public/partials/footer_shared.php" bytes read 0 written 275
+Dec 18 07:00:09 10.71.60.0 a843606 [10.71.60.0|put|1|275|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 07:00:09 10.71.60.0 a843606 open "/public/partials/head.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:09 10.71.60.0 a843606 open "/public/partials/header.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:09 10.71.60.0 a843606 close "/public/partials/head.php" bytes read 0 written 552
+Dec 18 07:00:09 10.71.60.0 a843606 [10.71.60.0|put|0|552|0|0|0|2f7075626c69632f7061727469616c732f686561642e706870|]
+Dec 18 07:00:09 10.71.60.0 a843606 close "/public/partials/header.php" bytes read 0 written 976
+Dec 18 07:00:09 10.71.60.0 a843606 [10.71.60.0|put|0|976|0|0|0|2f7075626c69632f7061727469616c732f6865616465722e706870|]
+Dec 18 07:00:09 10.71.60.0 a843606 open "/public/partials/nav.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:09 10.71.60.0 a843606 close "/public/partials/nav.php" bytes read 0 written 466
+Dec 18 07:00:09 10.71.60.0 a843606 [10.71.60.0|put|0|466|0|0|0|2f7075626c69632f7061727469616c732f6e61762e706870|]
+Dec 18 07:00:09 10.71.60.0 a843606 open "/public/assets/css/lux.css" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:09 10.71.60.0 a843606 close "/public/assets/css/lux.css" bytes read 0 written 4810
+Dec 18 07:00:09 10.71.60.0 a843606 [10.71.60.0|put|0|4810|0|0|0|2f7075626c69632f6173736574732f6373732f6c75782e637373|]
+Dec 18 07:00:09 10.71.60.0 a843606 open "/public/assets/js/contact.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:10 10.71.60.0 a843606 close "/public/assets/js/contact.js" bytes read 0 written 5349
+Dec 18 07:00:10 10.71.60.0 a843606 [10.71.60.0|put|1|5349|0|0|0|2f7075626c69632f6173736574732f6a732f636f6e746163742e6a73|]
+Dec 18 07:00:10 10.71.60.0 a843606 open "/public/assets/js/site.js" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:00:10 10.71.60.0 a843606 close "/public/assets/js/site.js" bytes read 0 written 2482
+Dec 18 07:00:10 10.71.60.0 a843606 [10.71.60.0|put|0|2482|0|0|0|2f7075626c69632f6173736574732f6a732f736974652e6a73|]
+Dec 18 07:01:10 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 52374
+Dec 18 07:01:10 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 07:01:10 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 52386
+Dec 18 07:01:10 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 07:01:27 10.71.60.0 a257078 Connection from 10.71.60.0 port 29404 on 66.175.237.39 port 22 rdomain ""
+Dec 18 07:01:28 10.71.60.0 a257078 Accepted password for a257078 from 10.71.60.0 port 29404 ssh2
+Dec 18 07:01:28 10.71.60.0 a257078 Starting session: subsystem 'sftp' for a257078 from 10.71.60.0 port 29404 id 0
+Dec 18 07:01:28 10.71.60.0 a257078 session opened for local user a257078 from [10.71.60.0]
+Dec 18 07:04:59 10.71.60.0 a257078 open "/public/services.php" flags READ mode 0666
+Dec 18 07:05:00 10.71.60.0 a257078 close "/public/services.php" bytes read 1767 written 0
+Dec 18 07:05:00 10.71.60.0 a257078 [10.71.60.0|get|1|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:05:28 10.71.60.0 a257078 open "/public/partials/footer_shared.php" flags READ mode 0666
+Dec 18 07:05:28 10.71.60.0 a257078 close "/public/partials/footer_shared.php" bytes read 275 written 0
+Dec 18 07:05:28 10.71.60.0 a257078 [10.71.60.0|get|0|275|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 07:05:45 10.71.60.0 a257078 open "/public/partials/footer_shared.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:05:45 10.71.60.0 a257078 close "/public/partials/footer_shared.php" bytes read 0 written 277
+Dec 18 07:05:45 10.71.60.0 a257078 [10.71.60.0|put|0|277|0|0|0|2f7075626c69632f7061727469616c732f666f6f7465725f7368617265642e706870|]
+Dec 18 07:06:14 10.71.60.0 a257078 open "/public/api/services.php" flags READ mode 0666
+Dec 18 07:06:14 10.71.60.0 a257078 close "/public/api/services.php" bytes read 1482 written 0
+Dec 18 07:06:14 10.71.60.0 a257078 [10.71.60.0|get|0|1482|0|0|0|2f7075626c69632f6170692f73657276696365732e706870|]
+Dec 18 07:11:14 10.71.60.0 a257078 session closed for local user a257078 from [10.71.60.0]
+Dec 18 07:11:14 10.71.60.0 a257078 Connection closed by 10.71.60.0 port 29404
+Dec 18 07:12:33 10.71.60.0 a382811 Connection from 10.71.60.0 port 49556 on 66.175.237.39 port 22 rdomain ""
+Dec 18 07:12:34 10.71.60.0 a382811 Accepted password for a382811 from 10.71.60.0 port 49556 ssh2
+Dec 18 07:12:34 10.71.60.0 a382811 Starting session: subsystem 'sftp' for a382811 from 10.71.60.0 port 49556 id 0
+Dec 18 07:12:34 10.71.60.0 a382811 session opened for local user a382811 from [10.71.60.0]
+Dec 18 07:12:45 10.71.60.0 a382811 open "/public/services.php" flags READ mode 0666
+Dec 18 07:12:45 10.71.60.0 a382811 close "/public/services.php" bytes read 1767 written 0
+Dec 18 07:12:45 10.71.60.0 a382811 [10.71.60.0|get|0|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:12:52 10.71.60.0 a382811 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:12:53 10.71.60.0 a382811 close "/public/services.php" bytes read 0 written 1771
+Dec 18 07:12:53 10.71.60.0 a382811 [10.71.60.0|put|1|1771|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:13:43 10.71.60.0 a382811 open "/public/services.php" flags READ mode 0666
+Dec 18 07:13:44 10.71.60.0 a382811 close "/public/services.php" bytes read 1771 written 0
+Dec 18 07:13:44 10.71.60.0 a382811 [10.71.60.0|get|1|1771|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:13:57 10.71.60.0 a382811 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:13:58 10.71.60.0 a382811 close "/public/services.php" bytes read 0 written 1767
+Dec 18 07:13:58 10.71.60.0 a382811 [10.71.60.0|put|1|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:14:11 10.71.60.0 a382811 open "/public/prices.php" flags READ mode 0666
+Dec 18 07:14:11 10.71.60.0 a382811 close "/public/prices.php" bytes read 6394 written 0
+Dec 18 07:14:11 10.71.60.0 a382811 [10.71.60.0|get|0|6394|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 07:15:16 10.71.60.0 a382811 open "/public/services.php" flags READ mode 0666
+Dec 18 07:15:17 10.71.60.0 a382811 close "/public/services.php" bytes read 1767 written 0
+Dec 18 07:15:17 10.71.60.0 a382811 [10.71.60.0|get|1|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:20:05 10.71.60.0 a382811 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:20:05 10.71.60.0 a382811 close "/public/prices.php" bytes read 0 written 6398
+Dec 18 07:20:05 10.71.60.0 a382811 [10.71.60.0|put|0|6398|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 07:20:15 10.71.60.0 a382811 open "/public/contact.php" flags READ mode 0666
+Dec 18 07:20:16 10.71.60.0 a382811 close "/public/contact.php" bytes read 9143 written 0
+Dec 18 07:20:16 10.71.60.0 a382811 [10.71.60.0|get|1|9143|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 07:20:25 10.71.60.0 a382811 open "/public/index.php" flags READ mode 0666
+Dec 18 07:20:25 10.71.60.0 a382811 close "/public/index.php" bytes read 2143 written 0
+Dec 18 07:20:25 10.71.60.0 a382811 [10.71.60.0|get|0|2143|0|0|0|2f7075626c69632f696e6465782e706870|]
+Dec 18 07:20:36 10.71.60.0 a382811 open "/public/services.php" flags READ mode 0666
+Dec 18 07:20:37 10.71.60.0 a382811 close "/public/services.php" bytes read 1767 written 0
+Dec 18 07:20:37 10.71.60.0 a382811 [10.71.60.0|get|1|1767|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:20:50 10.71.60.0 a382811 open "/public/services.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:20:50 10.71.60.0 a382811 close "/public/services.php" bytes read 0 written 1771
+Dec 18 07:20:50 10.71.60.0 a382811 [10.71.60.0|put|0|1771|0|0|0|2f7075626c69632f73657276696365732e706870|]
+Dec 18 07:20:59 10.71.60.0 a382811 open "/public/contact.php" flags READ mode 0666
+Dec 18 07:20:59 10.71.60.0 a382811 close "/public/contact.php" bytes read 9143 written 0
+Dec 18 07:20:59 10.71.60.0 a382811 [10.71.60.0|get|1|9143|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 07:22:17 10.71.60.0 a382811 open "/public/contact.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:22:17 10.71.60.0 a382811 close "/public/contact.php" bytes read 0 written 9147
+Dec 18 07:22:17 10.71.60.0 a382811 [10.71.60.0|put|0|9147|0|0|0|2f7075626c69632f636f6e746163742e706870|]
+Dec 18 07:22:56 10.71.60.0 a382811 open "/public/prices.php" flags READ mode 0666
+Dec 18 07:22:56 10.71.60.0 a382811 close "/public/prices.php" bytes read 6398 written 0
+Dec 18 07:22:56 10.71.60.0 a382811 [10.71.60.0|get|0|6398|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 07:23:03 10.71.60.0 a382811 open "/public/prices.php" flags WRITE,CREATE,TRUNCATE mode 0666
+Dec 18 07:23:03 10.71.60.0 a382811 close "/public/prices.php" bytes read 0 written 6402
+Dec 18 07:23:03 10.71.60.0 a382811 [10.71.60.0|put|0|6402|0|0|0|2f7075626c69632f7072696365732e706870|]
+Dec 18 07:28:10 10.71.60.0 a382811 session closed for local user a382811 from [10.71.60.0]
+Dec 18 07:28:10 10.71.60.0 a382811 Connection closed by 10.71.60.0 port 49556
+Dec 18 08:06:00 10.71.60.0 a843606 Connection closed by 10.71.60.0 port 27866
+Dec 18 08:06:00 10.71.60.0 a843606 session closed for local user a843606 from [10.71.60.0]
+Dec 18 16:45:13 10.71.60.0 a843606 Connection from 10.71.60.0 port 61862 on 66.175.237.39 port 22 rdomain ""
+Dec 18 16:45:14 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 61862 ssh2
+Dec 18 16:45:14 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 61862 id 0
+Dec 18 16:45:14 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 16:46:02 10.71.60.0 a843606 Connection from 10.71.60.0 port 20524 on 66.175.237.39 port 22 rdomain ""
+Dec 18 16:46:03 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 20524 ssh2
+Dec 18 16:46:03 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 20524 id 0
+Dec 18 16:46:03 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 16:46:03 10.71.60.0 a843606 Connection from 10.71.60.0 port 20532 on 66.175.237.39 port 22 rdomain ""
+Dec 18 16:46:03 10.71.60.0 a843606 Accepted password for a843606 from 10.71.60.0 port 20532 ssh2
+Dec 18 16:46:04 10.71.60.0 a843606 open "/README_SETUP.md" flags READ mode 0666
+Dec 18 16:46:04 10.71.60.0 a843606 Starting session: subsystem 'sftp' for a843606 from 10.71.60.0 port 20532 id 0
+Dec 18 16:46:04 10.71.60.0 a843606 session opened for local user a843606 from [10.71.60.0]
+Dec 18 16:46:04 10.71.60.0 a843606 close "/README_SETUP.md" bytes read 1134 written 0
+Dec 18 16:46:04 10.71.60.0 a843606 [10.71.60.0|get|0|1134|0|0|0|2f524541444d455f53455455502e6d64|]
+Dec 18 16:46:04 10.71.60.0 a843606 open "/config/mail.php" flags READ mode 0666
+Dec 18 16:46:04 10.71.60.0 a843606 open "/config/db.php" flags READ mode 0666
+Dec 18 16:46:04 10.71.60.0 a843606 close "/config/mail.php" bytes read 454 written 0
+Dec 18 16:46:04 10.71.60.0 a843606 [10.71.60.0|get|0|454|0|0|0|2f636f6e6669672f6d61696c2e706870|]
+Dec 18 16:46:04 10.71.60.0 a843606 close "/config/db.php" bytes read 810 written 0
+Dec 18 16:46:04 10.71.60.0 a843606 [10.71.60.0|get|0|810|0|0|0|2f636f6e6669672f64622e706870|]
+Dec 18 16:46:04 10.71.60.0 a843606 open "/config/contact_config.php" flags READ mode 0666
+Dec 18 16:46:05 10.71.60.0 a843606 close "/config/contact_config.php" bytes read 1415 written 0
+Dec 18 16:46:05 10.71.60.0 a843606 [10.71.60.0|get|1|1415|0|0|0|2f636f6e6669672f636f6e746163745f636f6e6669672e706870|]
+Dec 18 16:46:05 10.71.60.0 a843606 open "/db/schema.sql" flags READ mode 0666
+Dec 18 16:46:05 10.71.60.0 a843606 sent status No such file
+Dec 18 16:46:05 10.71.60.0 a843606 close "/db/schema.sql" bytes read 8407 written 0
+Dec 18 16:46:05 10.71.60.0 a843606 [10.71.60.0|get|0|8407|0|0|0|2f64622f736368656d612e73716c|]
+Dec 18 16:46:05 10.71.60.0 a843606 open "/lib/SmtpMailer.php" flags READ mode 0666
+Dec 18 16:46:05 10.71.60.0 a843606 close "/lib/SmtpMailer.php" bytes read 4949 written 0
+Dec 18 16:46:05 10.71.60.0 a843606 [10.71.60.0|get|0|4949|0|0|0|2f6c69622f536d74704d61696c65722e706870|]
+Dec 18 16:46:05 10.71.60.0 a843606 open "/lib/services_repo.php" flags READ mode 0666
+Dec 18 16:46:05 10.71.60.0 a843606 open "/lib/helpers.php" flags READ mode 0666
+Dec 18 16:46:05 10.71.60.0 a843606 close "/lib/services_repo.php" bytes read 700 written 0
+Dec 18 16:46:05 10.71.60.0 a843606 [10.71.60.0|get|0|700|0|0|0|2f6c69622f73657276696365735f7265706f2e706870|]
+Dec 18 16:46:06 10.71.60.0 a843606 close "/lib/helpers.php" bytes read 1290 written 0
+Dec 18 16:46:06 10.71.60.0 a843606 [10.71.60.0|get|1|1290|0|0|0|2f6c69622f68656c706572732e706870|]
+Dec 18 16:46:06 10.71.60.0 a843606 open "/lib/availability.php" flags READ mode 0666
+Dec 18 16:46:06 10.71.60.0 a843606 close "/lib/availability.php" bytes read 2620 written 0
+Dec 18 16:46:06 10.71.60.0 a843606 [10.71.60.0|get|0|2620|0|0|0|2f6c69622f617661696c6162696c6974792e706870|]
+Dec 18 16:46:06 10.71.60.0 a843606 open "/logs/access.log.51.4" flags READ mode 0666
+Dec 18 16:46:06 10.71.60.0 a843606 open "/logs/sftp.log" flags READ mode 0666
